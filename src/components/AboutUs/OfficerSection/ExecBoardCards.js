@@ -35,13 +35,13 @@ const ExecBoardCards = () => (
             />
             <OfficerCard className="item-2"
                 committee="exec"
-                name="Erin Hong"
+                name="April Zhang"
                 photoLink={execArr[2]}
                 role="VP of Development"
-                interest1="Music"
-                interest2="Running"
+                interest1="Playing tennis"
+                interest2="Binging Netflix"
                 interest3="Reading"
-                linkedin="https://www.linkedin.com/in/erin-hong-054535203/"
+                linkedin="https://www.linkedin.com/in/aprilczhang/"
             />
             <OfficerCard className="item-3"
                 committee="exec"

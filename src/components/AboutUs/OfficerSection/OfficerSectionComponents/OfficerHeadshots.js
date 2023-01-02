@@ -1,6 +1,6 @@
 import exec1 from "../../../../images/about_us/officer_photos/exec/sofia.jpg"
 import exec2 from "../../../../images/about_us/officer_photos/exec/arshia.jpg"
-import exec3 from "../../../../images/about_us/officer_photos/projects/erin.jpeg"
+import exec3 from "../../../../images/about_us/officer_photos/exec/april.jpg"
 import exec4 from "../../../../images/about_us/officer_photos/exec/lara.jpg"
 import exec5 from "../../../../images/about_us/officer_photos/exec/vinay.jpg"
 import exec6 from "../../../../images/about_us/officer_photos/exec/emily.jpg"
