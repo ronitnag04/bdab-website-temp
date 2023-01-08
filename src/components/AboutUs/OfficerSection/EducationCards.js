@@ -33,22 +33,22 @@ const EducationCards = () => (
                 linkedin="https://www.linkedin.com/in/sabi-can-ruso-83648721b/"
             />
             <OfficerCard className="item-2"
-                name="Sanjana Kotha"
+                name="Hrishikesh Ingale"
                 photoLink={educationArr[2]}
                 role="Head Instructor"
-                interest1="Hand lettering"
-                interest2="Hiking"
-                interest3="Baking"
-                linkedin="https://www.linkedin.com/in/sanjana-kotha/"
+                interest1="Spending time with friends"
+                interest2="Dancing #UCBAZAAD"
+                interest3="Love ranch dressing"
+                linkedin="https://www.linkedin.com/in/hrishikesh-ingale/"
             />
             <OfficerCard className="item-3"
-                name="Eddie Liu"
+                name="Cadence Hsu"
                 photoLink={educationArr[3]}
                 role="OC Head of Marketing"
-                interest1="Electronic Dance Music"
-                interest2="Weight Training"
-                interest3="Swimming"
-                linkedin="https://www.linkedin.com/in/efliu/"
+                interest1="Going to the beach"
+                interest2="Thrifting"
+                interest3="Trying new coffee/food places"
+                linkedin="https://www.linkedin.com/in/cadyhsu/"
             />
             <OfficerCard className="item-4"
                 name="Austin Ho"

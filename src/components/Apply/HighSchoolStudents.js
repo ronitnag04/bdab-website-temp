@@ -65,7 +65,7 @@ const HighSchoolStudents = () => (
         <DescriptionContainer>
             <Description
                 description={<>For high school students interested in learning about data science: apply to be a part of
-                our <b>6-week Big Data Bootcamp</b> for the Spring 2022 semester. You will learn what data science is, how you
+                our <b>6-week Big Data Bootcamp</b> for the Spring 2023 semester. You will learn what data science is, how you
                 can apply it to any industry you’re interested in, and see it in action!</>}
             />
         </DescriptionContainer>

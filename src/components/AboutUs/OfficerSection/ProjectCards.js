@@ -15,13 +15,13 @@ const ProjectCards = () => (
         <CardContainer>
             <OfficerCard className="item-0"
                 committee="project"
-                name="April Zhang"
+                name="Elvis Wei"
                 photoLink={projectArr[0]}
                 role="Project Manager"
-                interest1="Reading"
-                interest2="Spending time in nature"
-                interest3="Making vegan desserts"
-                linkedin="https://www.linkedin.com/in/aprilczhang/"
+                interest1="Pokemon"
+                interest2="Listening to hip hop & EDM"
+                interest3="Talking about NLP"
+                linkedin="https://www.linkedin.com/in/ewei068/"
             />
             <OfficerCard className="item-1"
                 committee="project"
@@ -35,13 +35,13 @@ const ProjectCards = () => (
             />
             <OfficerCard className="item-2"
                 committee="project"
-                name="Surya Mamidyala"
+                name="Michael Chigaev"
                 photoLink={projectArr[2]}
                 role="Project Manager"
-                interest1="Playing pickup ball"
-                interest2="Shadow boxing"
-                interest3="Listening to rap music"
-                linkedin="https://www.linkedin.com/in/surya-mamidyala/"
+                interest1="Tinkering and making things"
+                interest2="Learning to play the guitar"
+                interest3="Photography"
+                linkedin="https://www.linkedin.com/in/michael-chigaev-615b5b234/"
             />
             <OfficerCard className="item-3"
                 committee="project"
@@ -70,12 +70,10 @@ const ProjectCards = () => (
                 photoLink={projectArr[5]}
                 role="Project Manager"
                 interest1="Producing music"
-                interest2="Playing basketball"
-                interest3="Hanging out with friends"
+                interest2="Baking"
+                interest3="Rizzology"
                 linkedin="https://www.linkedin.com/in/pruthvi-innamuri/"
-            /> 
-
-            
+            />
         </CardContainer>
     </>
 )

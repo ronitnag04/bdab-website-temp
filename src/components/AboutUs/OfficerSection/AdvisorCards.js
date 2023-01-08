@@ -31,6 +31,15 @@ const AdvisorCards = () => (
                 interest3="Making Large Spotify Playlists"
                 linkedin="https://www.linkedin.com/in/ronak-laddha/"
             />
+            <OfficerCard className="item-2"
+                name="Sophia Kwee"
+                photoLink={advisorArr[2]}
+                role="Senior Advisor"
+                interest1="Vibing"
+                interest2="Munching"
+                interest3="Sleeping"
+                linkedin="https://www.linkedin.com/in/sofia-kwee/"
+            />
         </CardContainer>
     </>
 )

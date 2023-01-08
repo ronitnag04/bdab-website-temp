@@ -55,28 +55,38 @@ const ExecBoardCards = () => (
             />
             <OfficerCard className="item-4"
                 committee="exec"
-                name="Surya Mamidyala"
+                name="Ethan Preston"
                 photoLink={execArr[4]}
+                role="External Vice President"
+                interest1="Running"
+                interest2="Tennis"
+                interest3="Watching sports"
+                linkedin="https://www.linkedin.com/in/ethanpreston/"
+            />
+            <OfficerCard className="item-5"
+                committee="exec"
+                name="Surya Mamidyala"
+                photoLink={execArr[5]}
                 role="VP of Consulting"
                 interest1="Playing basketball"
                 interest2="Listening to rap"
                 interest3="Exploring new places"
                 linkedin="https://www.linkedin.com/in/surya-mamidyala/"
             />
-            <OfficerCard className="item-5"
+            <OfficerCard className="item-6"
                 committee="exec"
                 name="Sanjana Kotha"
-                photoLink={execArr[5]}
+                photoLink={execArr[6]}
                 role="VP of Education: Bootcamp"
                 interest1="Hand lettering"
                 interest2="Baking cookies"
                 interest3="Hiking"
                 linkedin="https://www.linkedin.com/in/sanjana-kotha/"
             />
-            <OfficerCard className="item-6"
+            <OfficerCard className="item-7"
                 committee="exec"
                 name="Joshua Chandiramani"
-                photoLink={execArr[6]}
+                photoLink={execArr[7]}
                 role="VP of Education: Online Course"
                 interest1="Competitive tennis"
                 interest2="Hip hop dance"

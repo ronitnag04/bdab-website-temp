@@ -15,7 +15,7 @@ const faqs = [
     {question: "What makes your Education Committee different from other education clubs?", 
     answer: "We are the first UC Berkeley student organization to offer a targeted data science bootcamp for high school students. With our Big Data Bootcamp, members are given the unique opportunity to educate younger learners about the increasing importance of data science in industry."
     },
-    {question: "What is Big Data’s club culture?", 
+    {question: "What is Big Data at Berkeley’s club culture?", 
     answer: "Our friendly and growth-oriented club culture has allowed us to form tight-knit bonds with each other and accomplish amazing things! We are committed to uplifting and supporting each other, no matter what. Check out our Medium to learn more about how we stay close virtually!"
     },
     {question: "What is a drop-in infosession?", 
