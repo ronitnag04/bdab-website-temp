@@ -4,6 +4,9 @@
   "description": "Responsive navigation using styled components and useState hook - Gatsby / React Navbar",
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "resolutions": {
+    "source-map": "^0.8.0-beta.0"
+  },
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.32.13",
@@ -27,7 +30,8 @@
     "react-slick": "^0.27.13",
     "react-slideshow-image": "^3.4.3",
     "react-visibility-sensor": "^5.1.1",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "source-map": "^0.8.0-beta.0"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
