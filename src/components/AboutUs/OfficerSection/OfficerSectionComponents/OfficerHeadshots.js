@@ -7,12 +7,13 @@ import exec6 from "../../../../images/about_us/officer_photos/exec/surya.jpg"
 import exec7 from "../../../../images/about_us/officer_photos/exec/sanjana.jpg"
 import exec8 from "../../../../images/about_us/officer_photos/exec/josh.jpg"
 
-import edu1 from "../../../../images/about_us/officer_photos/education/garima.jpg"
-import edu2 from "../../../../images/about_us/officer_photos/education/can.jpg"
+import edu1 from "../../../../images/about_us/officer_photos/education/saaketh.png"
+import edu2 from "../../../../images/about_us/officer_photos/education/maddie.png"
 import edu3 from "../../../../images/about_us/officer_photos/education/hrishikesh.png"
 import edu4 from "../../../../images/about_us/officer_photos/education/cadence.jpg"
-import edu5 from "../../../../images/about_us/officer_photos/education/austin.jpg"
+import edu5 from "../../../../images/about_us/officer_photos/education/sean.png"
 import edu6 from "../../../../images/about_us/officer_photos/education/kaito.jpg"
+import edu7 from "../../../../images/about_us/officer_photos/education/ashwin.png"
 
 
 import proj1 from "../../../../images/about_us/officer_photos/projects/elvis.jpg"
@@ -52,7 +53,8 @@ export const educationArr = [
     edu3,
     edu4,
     edu5, 
-    edu6
+    edu6,
+    edu7
 ];
 
 export const projectArr = [

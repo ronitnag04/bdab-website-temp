@@ -54,9 +54,9 @@ const EducationCards = () => (
                 name="Seah She"
                 photoLink={educationArr[4]}
                 role="OC Head of Web Development"
-                interest1="---"
-                interest2= "---"
-                interest3="---"
+                interest1="Going out on spontaneous trips"
+                interest2= "Creating notion pages"
+                interest3="Croffles"
                 linkedin="https://www.linkedin.com/in/sean-she/"
             />
             <OfficerCard className="item-5"
