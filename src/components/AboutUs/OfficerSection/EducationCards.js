@@ -15,22 +15,22 @@ const EducationCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Garima Gupta"
+                name="Saaketh Gunukula"
                 photoLink={educationArr[0]}
                 role="Head Instructor"
-                interest1="Playing basketball"
-                interest2="Watching Marvel movies"
-                interest3="Photography"
-                linkedin="https://www.linkedin.com/in/garima-gupta-a78a66183/"
+                interest1="---"
+                interest2="---"
+                interest3="---"
+                linkedin="https://www.linkedin.com/in/saaketh-gunukula-192a52178/"
             />
             <OfficerCard className="item-1"
-                name="Sabi Can Ruso"
+                name="Madeleine Larson"
                 photoLink={educationArr[1]}
                 role="Head Instructor"
-                interest1="Football (both actually)"
-                interest2="Traveling"
-                interest3="Duolingo"
-                linkedin="https://www.linkedin.com/in/sabi-can-ruso-83648721b/"
+                interest1="---"
+                interest2="---"
+                interest3="---"
+                linkedin="https://www.linkedin.com/in/madeleinelarson/"
             />
             <OfficerCard className="item-2"
                 name="Hrishikesh Ingale"
@@ -51,13 +51,13 @@ const EducationCards = () => (
                 linkedin="https://www.linkedin.com/in/cadyhsu/"
             />
             <OfficerCard className="item-4"
-                name="Austin Ho"
+                name="Seah She"
                 photoLink={educationArr[4]}
                 role="OC Head of Web Development"
-                interest1="Making Spotify playlists"
-                interest2= "Trying new restaurants"
-                interest3="Playing spikeball on the glade"
-                linkedin="https://www.linkedin.com/in/aho1628/"
+                interest1="---"
+                interest2= "---"
+                interest3="---"
+                linkedin="https://www.linkedin.com/in/sean-she/"
             />
             <OfficerCard className="item-5"
                 name="Kaito Garcia"
@@ -67,6 +67,15 @@ const EducationCards = () => (
                 interest2= "Guitar & Piano"
                 interest3="Weighlifting"
                 linkedin="https://www.linkedin.com/in/kaitogarcia/"
+            />
+            <OfficerCard className="item-5"
+                name="Ashwin Gopalan"
+                photoLink={educationArr[6]}
+                role="Bootcamp Head of Curriculum"
+                interest1="Cooking (and eating...)"
+                interest2= "Playing golf or soccer"
+                interest3="Finding new music"
+                linkedin="https://www.linkedin.com/in/ashwin-gopalan-147a2b1b4/"
             />
 
         </CardContainer>
