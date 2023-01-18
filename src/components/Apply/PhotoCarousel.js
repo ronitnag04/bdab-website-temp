@@ -12,19 +12,19 @@ const properties = {
 };
 
 const photoLinks = [
+  "gallery_14.jpeg",
+  "gallery_15.jpg",
   "gallery_1.jpg",
   "gallery_2.jpg",
+  "gallery_18.jpeg",
+  "gallery_19.jpg",
   "gallery_3.jpg",
-  "gallery_4.jpg",
-  "gallery_5.jpg",
-  "gallery_6.jpg",
-  "gallery_7.jpg",
-  "gallery_8.jpg",
-  "gallery_9.jpg",
+  "gallery_20.jpeg",
+  "gallery_21.jpeg",
   "gallery_10.jpg",
-  "gallery_11.png",
-  "gallery_12.png",
-  "gallery_13.png"
+  "gallery_22.jpg",
+  "gallery_23.jpg",
+  "gallery_24.jpg"
 ];
 
 const PhotoContainer = styled.div`

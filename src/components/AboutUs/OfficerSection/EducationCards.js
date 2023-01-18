@@ -18,18 +18,18 @@ const EducationCards = () => (
                 name="Saaketh Gunukula"
                 photoLink={educationArr[0]}
                 role="Head Instructor"
-                interest1="---"
-                interest2="---"
-                interest3="---"
+                interest1="Nature"
+                interest2="Listening to rap"
+                interest3="Watching basketball"
                 linkedin="https://www.linkedin.com/in/saaketh-gunukula-192a52178/"
             />
             <OfficerCard className="item-1"
                 name="Madeleine Larson"
                 photoLink={educationArr[1]}
                 role="Head Instructor"
-                interest1="---"
-                interest2="---"
-                interest3="---"
+                interest1="Playing video games"
+                interest2="Sustainability and thrifting"
+                interest3="collecting succulents from Trader Joes"
                 linkedin="https://www.linkedin.com/in/madeleinelarson/"
             />
             <OfficerCard className="item-2"
