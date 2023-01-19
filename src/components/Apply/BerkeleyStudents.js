@@ -85,7 +85,7 @@ const BerkeleyStudents = () => (
                 description={<>The application is due on Friday, January 27th at 10 pm PST.
                 </>}
             />
-            <a href="http://bit.ly/fa22_generalapp" rel="noreferrer" target="_blank">
+            <a href="https://forms.gle/5epLxQQzz3e9QLBy5" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_button.png")}/>
             </a>
             <ImageContainer>
