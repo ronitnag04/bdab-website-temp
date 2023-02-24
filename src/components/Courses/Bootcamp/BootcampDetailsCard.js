@@ -97,7 +97,7 @@ const BootcampDetailsCard = () => {
                     <A href="/apply" rel="noreferrer" target="_blank">
                         <Details>Required</Details>
                     </A>
-                    <A href="https://bit.ly/spring2021-bdab-syllabus" rel="noreferrer" target="_blank">
+                    <A href="https://bit.ly/sp23_bootcamp_syllabus" rel="noreferrer" target="_blank">
                         <Details style={{textDecorationColor: "#231f20"}}>Syllabus</Details>
                     </A>
                 </InnerContainer>

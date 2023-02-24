@@ -14,7 +14,6 @@ import seti from "../../images/work_with_us/company_logos/seti.jpg"
 import vivensity from "../../images/work_with_us/company_logos/vivensity-logo.png"
 import intuitive_surgical from "../../images/work_with_us/company_logos/Intuitive.png"
 
-
 import american_eagle from "../../images/work_with_us/company_logos/american_eagle.png"
 import hologic from "../../images/work_with_us/company_logos/hologic.png"
 import ulta_beauty from "../../images/work_with_us/company_logos/ulta_beauty.png"
