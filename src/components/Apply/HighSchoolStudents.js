@@ -71,14 +71,14 @@ const HighSchoolStudents = () => (
         </DescriptionContainer>
         <DetailsContainer>
             <Description
-                description={<>The application is due on Friday, 1/28 at 11:59 pm PST. Email us with any questions at
+                description={<>The application is due on Sunday, 2/19 at 11:59 pm PST. Email us with any questions at
                 bigdata.berkeley@gmail.com!</>}
             />
-            <a href="https://bit.ly/sp22_bootcamp_app" rel="noreferrer" target="_blank">
+            <a href="https://forms.gle/yMZzyKgg4YK2NB9LA" rel="noreferrer" target="_blank">
                 <Button src={require("../../images/apply/apply_to_learn_button.png")}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={require("../../images/apply/hs_time.png")}/>
+                <TimelineImage src={require("../../images/apply/bootcamp_timeline.png")}/>
             </ImageContainer>
         </DetailsContainer>
     </>
