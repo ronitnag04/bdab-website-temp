@@ -43,6 +43,10 @@ const ModuleCommonQuestions = [
 
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
+  {'name': 'Welcome Form',
+   'icon': 'google_forms_button.png',
+   'link': 'https://docs.google.com/forms/d/e/1FAIpQLSfpsuDv3fZmTlfO2CwIKVoZRpfUANPRX0t5vP-TgluT-mtXDA/viewform'
+  },
   {'name': 'Q&A Form',
    'icon': 'google_forms_button.png',
    'link': 'https://www.google.com'
