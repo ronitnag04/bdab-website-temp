@@ -2,7 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import OCPageBanner from "../OCPageBanner"
 import MissionSection from "./MissionSection"
-import OCTeamCards from "./OCTeamCards"
+import OCTeamCardsActive from "./OCTeamCardsActive"
+import OCTeamCardsInactive from "./OCTeamCardsInactive"
 
 const OuterContainer = styled.div`
     display: flex;
@@ -76,7 +77,8 @@ const AboutCourseContent = () => (
         <ContentContainer>
             <OCPageBanner title="About the Course" description="read about why we made this course!"/>
             <MissionSection/>
-            <OCTeamCards/>
+            <OCTeamCardsActive/>
+            <OCTeamCardsInactive/>
             {/* <Contact>Questions? Email bigdata.berkeley@gmail.com or message us on social media!</Contact> */}
         </ContentContainer>
     </InnerContainer>

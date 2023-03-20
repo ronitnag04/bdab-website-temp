@@ -28,7 +28,7 @@ const IntroStatsBar = () => {
     return (
         <Container>
             <StatValue maxValue="8" label="modules" />
-            <StatValue maxValue="50" suffix="+" label="students taught" />
+            {/* <StatValue maxValue="50" suffix="+" label="students taught" /> */}
             <StatValue maxValue="120" suffix="+" label="minutes of content" />
             {/* <StatValue maxValue="9.2" decimals="1" suffix="/10" label="teaching effectiveness" /> */}
         </Container>
