@@ -35,7 +35,7 @@ const ModuleResources = [
   },
   {'name': 'Video Playlist',
    'icon': 'youtube_button.png',
-   'link': 'https://www.youtube.com/watch?v=fW9JcHf62d4&list=PL57-h_jqatSOI01k8oFko6sfRocvjkeph'
+   'link': 'https://youtube.com/playlist?list=PL57-h_jqatSOI01k8oFko6sfRocvjkeph'
   },
   {'name': 'Presentation Slides',
    'icon': 'google_slides_button.png',

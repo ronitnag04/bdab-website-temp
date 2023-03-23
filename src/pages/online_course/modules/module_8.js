@@ -4,8 +4,10 @@ import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleConten
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
 const ModuleVideosLinks = {
-  1:{'link':'/',
-     'title':'SQL'},
+  1:{'link':'https://www.youtube.com/embed/fliUinipGE4',
+     'title':'SQL Part 1'},
+  1:{'link':'https://www.youtube.com/embed/uG739MKVCJM',
+     'title':'SQL Part 2'},
 }
 
 const ModuleCommonQuestions = [
@@ -31,7 +33,7 @@ const ModuleResources = [
   },
   {'name': 'Video Playlist',
    'icon': 'youtube_button.png',
-   'link': 'https://www.google.com'
+   'link': 'https://youtube.com/playlist?list=PL57-h_jqatSMR6vV5POezAku6_CjkWPoo'
   },
   {'name': 'Presentation Slides',
    'icon': 'google_slides_button.png',

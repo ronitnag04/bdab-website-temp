@@ -4,10 +4,8 @@ import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleConten
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
 const ModuleVideosLinks = {
-  1:{'link':'https://www.youtube.com/embed/sEbVMs8ahwk',
-     'title':'Windows Setup'},
-  2:{'link':'https://www.youtube.com/embed/tW55ZtXnEuY',
-     'title':'Mac Setup'},
+  1:{'link':'https://www.youtube.com/embed/BgJ-e4EfhTA',
+     'title':'Setup'},
 }
 
 const ModuleCommonQuestions = [
@@ -53,11 +51,11 @@ const ModuleResources = [
   },
   {'name': 'Video Playlist',
    'icon': 'youtube_button.png',
-   'link': 'https://www.google.com'
+   'link': 'https://youtube.com/playlist?list=PL57-h_jqatSOfvZqjAGfh12FRmqaIGetE'
   },
   {'name': 'Presentation Slides',
    'icon': 'google_slides_button.png',
-   'link': '/'
+   'link': 'https://docs.google.com/presentation/d/1K34fJFoMJLrezNfc1YklKkT7I7durx8CkRPpjVrWZqk/edit?usp=sharing'
   },
 ]
 

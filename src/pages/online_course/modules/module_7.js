@@ -35,7 +35,7 @@ const ModuleResources = [
   },
   {'name': 'Video Playlist',
    'icon': 'youtube_button.png',
-   'link': 'https://www.youtube.com/watch?v=ql3LqRxynqU&list=PL57-h_jqatSNE6WFtgQ9ZuOd9gu7p6y4U&ab_channel=BigDataatBerkeley'
+   'link': 'https://youtube.com/playlist?list=PL57-h_jqatSNE6WFtgQ9ZuOd9gu7p6y4U'
   },
   {'name': 'Presentation Slides',
    'icon': 'google_slides_button.png',
