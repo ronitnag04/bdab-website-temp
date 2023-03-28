@@ -13,9 +13,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"What does independent trials mean in probability?",
+   'answer':"Independence means knowing the outcome of one trial does not affect the outcome of another trial. For instance, individual coin tosses are independent trials since flipping a head or tail does not change the probability of getting heads or tails in the next trial. However, choosing two cards from a deck is not an independent event. You have a 1/52 chance of picking the first card. Since you already picked one card, now you only have 51 cards to choose from. Therefore, the chance of picking the second card is now 1/51.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What are some examples of null and alternative hypotheses and why do we need them?",
+  'answer':"An example of a null hypothesis would be ‘Water does not affect the growth of plants.’ On the other hand, an alternative hypothesis would be ‘Water does affect the growth of plants.’ We need these two hypotheses since we want to portray the relationship between two measured phenomena.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"When can you say study results are statistically significant?",
+  'answer':"If a result is statistically significant, the outcome is unlikely to be solely due to random chance. In other words, this means that there is likely a relationship between the two variables we measured. Quantitatively, we say a study result is statistically significant if the p-value is less than our set significance level.",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

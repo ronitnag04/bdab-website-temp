@@ -13,9 +13,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"Can you select multiple columns as a series using square brackets?",
+   'answer':"Unfortunately, you cannot select multiple columns using a single bracket. The possible arguments for square brackets are a slice of row numbers, a list of column labels, or a single column label. The first two arguments output a dataframe, whereas the last argument outputs a series for the column that you inputted.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What do you do if you want to select columns using the ‘iloc’ function?",
+  'answer':"The ‘iloc’ function selects rows and columns by 0-indexed numbers. If you want to select all rows, but only the 0th and 4th columns, you could write ‘df.iloc[:, [0,4]]’. The ‘:’ means that we are selecting all rows! The arguments for both rows and columns can be a list, a slice where the number on the right hand side is exclusive, or a single value.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Why is the column that you called the ‘groupby’ function bolded in the dataframe?",
+  'answer':"According to the ‘groupby’ documentation, one of the possible parameters is ‘as_index’, which is defaulted to the boolean value True. This means that the column(s) that you passed into ‘groupby’ becomes the new index, hence the bolded column(s)! You can manually set the ‘as-index = False’ when calling the function if you do not want this to happen.",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

@@ -15,9 +15,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"How do we choose the threshold when splitting the training and test set data?",
+   'answer':"First, you can consider the threshold prediction as one of the parameters to be chosen during the cross validation (meaning that you can test out different ratios between train and test data and see which yields the best model). But generally anything like 80-20, 70-30, 75-25, 90-10, etc, can be good. (usually there are more training data than testing data!)",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"For linear regression, is there a good way to identify the outliers? Do we get rid of the outliers?",
+  'answer':"Using training data find best hyperplane or line that best fit. Find points which are far away from the line or hyperplane. pointer which is very far away from hyperplane remove them considering those point as an outlier. Or ther are linear regression algorithms that helps minimize the effect of outliers (eg. Huber, RANSAC, Theil-Sen, etc).",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Can KNN be used for more than 2 classes?",
+  'answer':"In general 'knn' methods are able to find more than 2 classes (this is called “multi-class classification”)",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

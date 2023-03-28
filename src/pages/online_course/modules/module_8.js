@@ -11,9 +11,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"Does the order of SQL commands matter while querying tables? Do we have to start with the SELECT command?",
+   'answer':"No, the order of commands in SQL doesn’t matter. However, the most common way to write your SQL queries is in this order: SELECT, FROM, JOIN, WHERE, GROUP BY, GROUP BY, ORDER BY, and LIMIT.\n\nRegardless of what order the commands are written, SQL will be reading your commands in the following order: FROM, JOIN, WHERE, GROUP BY, HAVING, SELECT, ORDER, LIMIT.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Do we have to define primary keys?",
+  'answer':"SQL tables need primary keys to be joinable, and to be easily referenced afterwards. Hence, every SQL table needs to have a primary key defined.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Can we have two columns of the same name in a table?",
+  'answer':"Columns in the same table cannot have the same name.",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

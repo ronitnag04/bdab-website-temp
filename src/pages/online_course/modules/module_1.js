@@ -15,33 +15,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"What are some essential skills or background knowledge to learn/know if I want to study data science?",
+   'answer':"Knowing at least one coding language like python, SQL, or R is essential when doing data cleaning and analysis type of work, including the libraries such as Pandas or Sklearn, etc. Additionally, it’s also good to have some statistics knowledge such as hypothesis testing and inference, and linear algebra (SVM, PCA, etc).",
+   'instructor-name':'Curriculum Instructor'
   },
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"What is the difference between data science and data analytics?",
+   'answer':"The skillset for data scientists and data analysts can be different: data scientists may spend most of their time scrubbing data, doing data cleaning and statistical analysis (using machine learning), and developing big data infrastructures; data analysts will be focusing on data querying, data analysis and prediction, as well as creating dashboards, performing descriptive, diagnostic, predictive or prescriptive analytics.",
+   'instructor-name':'Curriculum Instructor'
   },
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
-  },
-  {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
- },
- {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
- },
- {'question':"How should you clean a dataset with null values?",
- 'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
- 'instructor-name':'Random Instructor'
-  },
-  {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
+  {'question':"What is a a model?",
+   'answer':"A model is a file that is trained to recognize certain types of patterns of data. In data science and machine learning, we train a model over a set of data, and the model can help us find patterns or make decisions based from previously unseen data.",
+   'instructor-name':'Curriculum Instructor'
   },
 ]
 

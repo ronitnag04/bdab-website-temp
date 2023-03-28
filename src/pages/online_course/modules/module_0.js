@@ -9,33 +9,13 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"Why are Deepnote notebooks useful?",
+   'answer':"Deepnote has a real-time collaborative feature where your team can work together simultaneously. Sharing your project is as easy as sending a link or email invite. It has a built-in SQL feature that does not require additional imports, which allows us to facilitate data processing. Lastly, Deepnote is beginner-friendly as it is easier to use for users who do not have much technical experience!",
+   'instructor-name':'Curriculum Instructor'
   },
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
-  },
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
-  },
-  {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
- },
- {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
- },
- {'question':"How should you clean a dataset with null values?",
- 'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
- 'instructor-name':'Random Instructor'
-  },
-  {'question':"How should you clean a dataset with null values?",
-  'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-  'instructor-name':'Random Instructor'
+  {'question':"What is the difference between the “Lesson Notebook” and “Assignment Notebook”?",
+   'answer':"The “Lesson Notebook” contains lecture materials so that you can follow along while you watch the module videos! The “Assignment Notebook” has extra comprehensive questions that will help you better understand the core concepts and will allow you to apply the knowledge that you learned through lectures.",
+   'instructor-name':'Curriculum Instructor'
   },
 ]
 

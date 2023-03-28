@@ -19,9 +19,33 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"When defining variables in Python, do we need to specify the data type?",
+   'answer':"No. Since Python is a dynamically-typed language, you don’t have to specify data types when defining variables. However, statically typed languages such as Java or C will require you to indicate data types.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What’s the difference between int and float type?",
+  'answer':"Integer variables denote whole numbers, while float types are decimal numbers. For example, 3, 100, -79875, and 0 are examples of int type variables. 3.0, 10.875, -6.66667 and 0.0 are float type variables.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Can we have two variables with the same name and different values?",
+  'answer':"No. When you assign a different value to the same variable name, the old value will be changed. For example, if you assign a = 0, then a = ‘Hello’, the variable a will now have a string value, ‘Hello’. There will be only one a variable.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What is the difference between modulo and floor difference math expressions?",
+  'answer':"The modulo operator (%) returns the remainder of dividing one number by another. For example, 5 % 2 would return 1, because 5 divided by 2 is 2 with a remainder of 1. On the other hand, the floor division operator (//) returns the quotient of dividing one number by another, rounded down to the nearest integer. For example, 5 // 2 would return 2, because 5 divided by 2 is 2.5, which is rounded down to 2.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What would '3' == 3 return? What about 3 == 3.0?",
+  'answer':"In Python, the expression '3' == 3 would return False, because the two operands are of different types. '3' is a string, while 3 is an integer. The == operator is used to compare the values of two operands, and it also checks whether they are of the same type. Since the two operands have different types, the expression evaluates to False.\n\nOn the other hand, the expression 3 == 3.0 would return True. In this case, both operands are numbers, and they have the same numerical value. Although 3 is an integer and 3.0 is a floating-point number, Python considers them equivalent in this context because they represent the same value numerically. When comparing numbers with ==, Python does not consider the types of the operands, only their values.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What is the difference between return and print?",
+  'answer':"print is a function that displays a message to the user on the console or terminal. It outputs the specified values or strings to the standard output stream, which is usually the console screen. It does not affect the actual value of the variable or data that is printed, and it does not store the output anywhere.\n\nOn the other hand, return is a statement that terminates the function and returns a value to the caller. It can be used to pass back the result of a function call to the caller of the function. When a function encounters a return statement, it immediately exits the function and passes the specified value back to the caller.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What is the difference between libraries and packages?",
+  'answer':"While both libraries and packages provide prewritten code that can be used to solve programming problems, a library typically provides a single set of functionalities, while a package provides a more structured way of organizing related modules and resources. A package can contain one or more libraries, and a library can be part of one or more packages.",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

@@ -13,9 +13,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"Why is it so important to visualize both our initial data, and our findings?",
+   'answer':"Visualizing our initial data can be a good way to initiate our data analysis process by will helping us recognize trends and identify outliers in our data. By knowing what our data looks like, we can select which type of regression or classification algorithm we want to use, or clean out any errors in our data accordingly.\n\nOn the other hand, visualization of the findings can be very beneficial in producing a presentable and easily understandable report to our audience.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What is the difference between bar plots and histograms?",
+  'answer':"A bar plot, also known as a bar chart, is a plot that displays categorical data with rectangular bars. The height of each bar represents the value of a particular category, and the width of the bar is usually fixed.\n\nA histogram, on the other hand, is a plot that displays the distribution of continuous data. It represents the frequency of data within certain intervals, or bins. The height of each bar represents the number of data points that fall within a particular bin, and the width of each bin is usually fixed.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What are examples of qualitative and quantitative data?",
+  'answer':"Qualitative data refers to non-numerical data that describes qualities or characteristics. It is subjective and typically based on observations, opinions, or interpretations. Examples of qualitative data include: Gender (male or female), Color (red, blue, green, etc.), Taste (sweet, salty, bitter, etc.)\n\n Quantitative data, on the other hand, refers to numerical data that can be measured and expressed in numbers or quantities. It is objective and can be analyzed using mathematical or statistical methods. Examples of quantitative data include: Age (25 years old), Height (175 centimeters), Weight (75 kilograms).",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 

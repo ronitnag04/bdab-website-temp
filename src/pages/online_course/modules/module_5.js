@@ -19,9 +19,17 @@ const ModuleVideosLinks = {
 }
 
 const ModuleCommonQuestions = [
-  {'question':"How should you clean a dataset with null values?",
-   'answer':"It depends on the situation! Sometimes, it is best to fill it with bound, such as 0 or float(‘inf’). Other times, it makes sense to fill in values with the average of other data. You can use the built-in pd.fillna() function for this!",
-   'instructor-name':'Random Instructor'
+  {'question':"What kind of data is web scraping used for?",
+   'answer':"Common use cases for web scrapping include but not limited to price monitoring, price intelligence (eg. collecting pricing information from competing sites), market research, and even some academic research in history and literature.",
+   'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"What does “csv” and “json” mean? Why do we need those data file types?",
+  'answer':"“CSV” stands for “Comma Separated Values”, and “JSON” stands for “JavaScript Object Notation”. Csv file holds plain text as a series of values (cells) separated by commas (,) in a series of lines (rows), and this is a very common format of large dataset, which can be read and written easily with built-in functions. JSON file is a language-independent, human-readable language used for its simplicity and is most commonly used in web-based applications. We have different data file formats because different data requires different way of processing, partitioning, compressing, etc, and it also depends on the data type.",
+  'instructor-name':'Curriculum Instructor'
+  },
+  {'question':"Are there any conventions when doing EDA?",
+  'answer':"Each method is either non-graphical (calculation of summary statistics) or graphical (summarize the data in a diagrammatic or pictorial way). Each method is either univariate (looking at one variable only) or multivariate (looking at multiple variables, but mostly bivariate, meaning only looking at 2 variables). The generally process of doing EDA can be 1) distinguish attributes, 2) univariate analysis, bivariate or multivariate analysis, 3) detect interactions/relationships among attributes, 4) detect missing values, 5) detect outliers, 6) feature engineering",
+  'instructor-name':'Curriculum Instructor'
   },
 ]
 
