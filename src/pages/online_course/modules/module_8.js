@@ -6,7 +6,7 @@ import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 const ModuleVideosLinks = {
   1:{'link':'https://www.youtube.com/embed/fliUinipGE4',
      'title':'SQL Part 1'},
-  1:{'link':'https://www.youtube.com/embed/uG739MKVCJM',
+  2:{'link':'https://www.youtube.com/embed/uG739MKVCJM',
      'title':'SQL Part 2'},
 }
 
