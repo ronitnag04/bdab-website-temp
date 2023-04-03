@@ -6,12 +6,12 @@ import SectionTitle from "../SmallSectionTitle";
 {/* Order(new before old in each category): VPs of Education (Online Course), Heads of Curriculum, Heads of Web, Heads of Marketing, Curriculum Developers, Web Developers, Marketing Specialists */}
 const contributors = [ 
     {name: "Edrea Low",
-    position: "Head of Ciriculum",
+    position: "Head of Curriculum",
     linkedin: "https://www.linkedin.com/in/edrealow/",
     status: "inactive"
     },
     {name: "Jasmine (Tai-Chen) Wang",
-    position: "Head of Ciriculum",
+    position: "Head of Curriculum",
     linkedin: "https://www.linkedin.com/in/jasmine-tai-chen-wang-4674371b5/",
     status: "inactive"
     },

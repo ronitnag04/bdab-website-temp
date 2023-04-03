@@ -91,7 +91,7 @@ const IntroDetailsCard = () => {
             <Details>• Data visualizations using Matplotlib and Seaborn</Details>
             <Details>• The Data Science Life Cycle</Details>
             <Details>• Machine Learning</Details>
-            <Details>• Probability and statistics</Details>
+            <Details>• Probability and Statistics</Details>
             <Details>• SQL</Details>
             <Details>• and so much more!</Details>
 
