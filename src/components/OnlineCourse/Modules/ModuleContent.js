@@ -149,7 +149,8 @@ const BottomContainer = styled.div`
     flex-flow: nowrap;
     align-items: center;
     gap: 50px;
-    margin: 50px;
+    margin-bottom: 50px;
+    
 
     @media (max-width: 1200px) {
         flex-flow: wrap;
