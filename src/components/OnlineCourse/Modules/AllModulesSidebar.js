@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'gatsby'
 import styled from 'styled-components'
 
 const transitionTime = '0.5s' 
@@ -90,13 +91,13 @@ const SidebarTab = ({setShowSidebar, showSidebar}) =>{
 
 const ModuleLink = ({moduleNum, title, currentPage}) => {
   return(
-    <a href={`https://bd.berkeley.edu/online_course/modules/module_${moduleNum}`}>
+    <Link to={`/online_course/modules/module_${moduleNum}`}>
       <LinkTitle
-        style={currentPage? {fontWeight:800} : {fontWeight:500}}
-      >
+          style={currentPage? {fontWeight:800} : {fontWeight:500}}
+        >
         Module {moduleNum}: {title}
       </LinkTitle>
-    </a>
+    </Link>
     
   )
 }
