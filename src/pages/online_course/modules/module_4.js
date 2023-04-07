@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
+import Content from "../../../components/OnlineCourse/Modules/Content"
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
 const ModuleVideosLinks = {
@@ -61,7 +61,7 @@ const Module4Page = () => (
     </Helmet>
     <>
         <Navbar/>
-        <ModuleContent
+        <Content
             title="Intro to Seaborn"
             currentPage={4}
             module_videos_links={ModuleVideosLinks}
