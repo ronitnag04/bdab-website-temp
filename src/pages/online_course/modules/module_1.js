@@ -1,5 +1,4 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
@@ -47,12 +46,6 @@ const ModuleResources = [
 
 const Module1Page = () => (
   <>
-    <Helmet>
-      <title>Module 1 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 1 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
     <>
         <Navbar/>
         <ModuleContent
@@ -67,3 +60,13 @@ const Module1Page = () => (
 )
 
 export default Module1Page
+
+export const Head = () => {
+  <>
+    <title>Work With Us | Big Data at Berkeley</title>
+    <title>Module 1 | Data Science Demystified</title>
+      <meta charSet="utf-8" />
+      <meta name="description" content="Module 1 of Data Science Demystified online course."/>
+      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
+  </>
+}

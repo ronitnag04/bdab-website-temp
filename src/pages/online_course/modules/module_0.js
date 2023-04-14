@@ -41,23 +41,24 @@ const ModuleResources = [
 
 const Module0Page = () => (
   <>
-    <Helmet>
-      <title>Module 0 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 0 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
-    <>
-        <Navbar/>
-        <ModuleContent
-            title="Setting Up"
-            currentPage={0}
-            module_videos_links={ModuleVideosLinks}
-            module_common_questions={ModuleCommonQuestions}
-            module_resources={ModuleResources}
-        />
-    </>
+      <Navbar/>
+      <ModuleContent
+          title="Setting Up"
+          currentPage={0}
+          module_videos_links={ModuleVideosLinks}
+          module_common_questions={ModuleCommonQuestions}
+          module_resources={ModuleResources}
+      />
   </>
 )
 
 export default Module0Page
+
+export const Head = () => {
+  <>
+    <title>Module 0 | Data Science Demystified</title>
+      <meta charSet="utf-8" />
+      <meta name="description" content="Module 0 of Data Science Demystified online course."/>
+      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
+  </>
+}
