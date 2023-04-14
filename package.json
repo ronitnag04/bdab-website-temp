@@ -5,32 +5,22 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.32.13",
-    "gatsby-cli": "^2.17.0",
-    "gatsby-image": "^2.2.34",
-    "gatsby-plugin-manifest": "^2.2.31",
-    "gatsby-plugin-offline": "^3.0.27",
-    "gatsby-plugin-react-helmet": "^3.8.0",
-    "gatsby-plugin-sharp": "^2.3.5",
-    "gatsby-plugin-styled-components": "^3.1.17",
-    "gatsby-source-filesystem": "^2.1.40",
-    "gatsby-transformer-sharp": "^2.3.7",
-    "jquery": "^3.5.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-countup": "^4.3.3",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-multi-carousel": "^2.6.1",
-    "react-player": "^2.10.1",
-    "react-slick": "^0.27.13",
-    "react-slideshow-image": "^3.4.3",
+    "babel-plugin-styled-components": "^2.1.1",
+    "gatsby": "^5.8.1",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-sharp": "^5.8.1",
+    "gatsby-plugin-styled-components": "^6.8.0",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-json": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-player": "^2.12.0",
+    "react-slideshow-image": "^4.2.1",
     "react-visibility-sensor": "^5.1.1",
-    "styled-components": "^4.4.1"
-  },
-  "devDependencies": {
-    "prettier": "^1.19.1"
+    "styled-components": "^5.3.9"
   },
   "keywords": [
     "navbar",
@@ -41,13 +31,11 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
@@ -57,3 +45,4 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
+
