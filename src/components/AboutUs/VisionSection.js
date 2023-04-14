@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
+import entire_club from "../../images/about_us/entire_club.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -46,7 +47,7 @@ const VisionSection = () => (
                 We seek to utilize our diverse experiences in the field of technology to prepare the next generation of data 
                 scientists and thinkers, as well as provide them with the opportunities to learn and grow."
             />
-            <Photo className="item-1" src={require("../../images/about_us/entire_club.png")}/>
+            <Photo className="item-1" src={entire_club}/>
         </DescriptionContainer>
     </>
 )

@@ -1,7 +1,10 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import Content from "../../../components/OnlineCourse/Modules/Content"
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
+import deepnote_button from "../../../images/online_course/deepnote_button.png"
+import google_forms_button from "../../../images/online_course/google_forms_button.png"
+import google_slides_button from "../../../images/online_course/google_slides_button.png"
+import youtube_button from "../../../images/online_course/youtube_button.png"
 
 const ModuleVideosLinks = {
   1:{'link':'https://www.youtube.com/embed/eN1RZ6ke9qI',
@@ -30,46 +33,47 @@ const ModuleCommonQuestions = [
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
   {'name': 'Deepnote Lesson',
-   'icon': 'deepnote_button.png',
+   'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-4-3f8db16c-2012-456b-8fef-dc32129ebac2/notebook/Lesson%20Notebook-7ae52aa0deab4595b565caf75a129d86'
   },
   {'name': 'Deepnote Assignment',
-   'icon': 'deepnote_button.png',
+   'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-4-3f8db16c-2012-456b-8fef-dc32129ebac2/notebook/Assignment%20Notebook-54b2de47d1904c39a778a63c69ec3fa2'
   },
   {'name': 'Q&A Form',
-   'icon': 'google_forms_button.png',
+   'icon': google_forms_button,
    'link': 'https://www.google.com'
   },
   {'name': 'Video Playlist',
-   'icon': 'youtube_button.png',
+   'icon': youtube_button,
    'link': 'https://youtube.com/playlist?list=PL57-h_jqatSPrmGjh3lqvd8atyHl_6chs'
   },
   {'name': 'Presentation Slides',
-   'icon': 'google_slides_button.png',
+   'icon': google_slides_button,
    'link': 'https://docs.google.com/presentation/d/14MKfYXxXO6hvX7hlxk495anqN9Cm4RJfMy1vigshWO4/edit?usp=sharing'
   },
 ]
 
 const Module4Page = () => (
   <>
-    <Helmet>
-      <title>Module 4 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 4 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
-    <>
-        <Navbar/>
-        <Content
-            title="Intro to Seaborn"
-            currentPage={4}
-            module_videos_links={ModuleVideosLinks}
-            module_common_questions={ModuleCommonQuestions}
-            module_resources={ModuleResources}
-        />
-    </>
+      <Navbar/>
+      <Content
+          title="Intro to Seaborn"
+          currentPage={4}
+          module_videos_links={ModuleVideosLinks}
+          module_common_questions={ModuleCommonQuestions}
+          module_resources={ModuleResources}
+      />
   </>
 )
 
 export default Module4Page
+
+export const Head = () => {
+  <>
+      <title>Module 4 | Data Science Demystified</title>
+      <meta charSet="utf-8" />
+      <meta name="description" content="Module 4 of Data Science Demystified online course."/>
+      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
+  </>
+}

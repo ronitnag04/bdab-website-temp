@@ -5,6 +5,7 @@ import Resources from './Resources'
 import VideosSidebar from './VideosSidebar'
 import Video from './Video'
 import AllModulesSidebar from './AllModulesSidebar'
+import footer_art from "../../../images/footer_art.png"
 
 const OuterContainer = styled.div`
     display: flex;
@@ -160,7 +161,7 @@ const Content = (props) => {
 
   return (
     <OuterContainer>
-        <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+        <BackgroundImg src={ footer_art } alt="art"/>
         <AllModulesSidebar
           showSidebar={showSidebar}
           setShowSidebar={setShowSidebar}

@@ -3,6 +3,8 @@ import styled from "styled-components"
 import FooterLinks from "./FooterLinks"
 import Logo from "./Logo"
 
+import footer_art from "../../images/footer_art.png"
+
 const FooterNavigation = styled.div`
   min-height: 35vh;
   display: flex;
@@ -41,7 +43,7 @@ const Footer = () => {
   return (
     <>
       <FooterNavigation>
-        <FooterImage src={require("../../images/footer_art.png")} alt="art"/>
+        <FooterImage src={ footer_art } alt="art"/>
         <Logo className="item-0"/>
         <div class="active"><a href="#"></a></div>
         <FooterLinks className="item-1"/>

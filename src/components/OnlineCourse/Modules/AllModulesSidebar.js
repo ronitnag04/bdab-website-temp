@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'gatsby'
 import styled from 'styled-components'
+import sidebar_tab from '../../../images/online_course/sidebar_tab.png'
 
 const transitionTime = '0.5s' 
 const openwidth = 20
@@ -79,7 +80,7 @@ const SidebarTab = ({setShowSidebar, showSidebar}) =>{
           outline:'none',}}
           >
           <SidebarImg 
-            src={require('../../../images/online_course/sidebar_tab.png')}
+            src={sidebar_tab}
             style={showSidebar ? {left:`${openwidth}vw`} : {left:`${closewidth}vw`}}>
           </SidebarImg>
       </button>

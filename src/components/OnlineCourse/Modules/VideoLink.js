@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from "styled-components"
-
+import play_button_blue from "../../../images/online_course/play_button_blue.png"
+import play_button_white from "../../../images/online_course/play_button_white.png"
 
 const VideoLinkButton = styled.button`
     background-color:transparent;
@@ -35,8 +36,8 @@ const VideoLink = (props) => {
     >
         <img 
             src={props.video_id===props.cur_video ? 
-                require("../../../images/online_course/play_button_blue.png") : 
-                require("../../../images/online_course/play_button_white.png")} 
+                play_button_blue : 
+                play_button_white} 
             alt='video icon' 
             height='35px'
         ></img>

@@ -1,11 +1,10 @@
 import React from "react"
-<<<<<<< HEAD
-import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
-=======
-import { Helmet } from "react-helmet"
 import Content from "../../../components/OnlineCourse/Modules/Content"
->>>>>>> 6eb6c15f06322ee58775b53241e962a35cf31031
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
+import deepnote_button from "../../../images/online_course/deepnote_button.png"
+import google_forms_button from "../../../images/online_course/google_forms_button.png"
+import google_slides_button from "../../../images/online_course/google_slides_button.png"
+import youtube_button from "../../../images/online_course/youtube_button.png"
 
 const ModuleVideosLinks = {
   1:{'link':'https://www.youtube.com/embed/fliUinipGE4',
@@ -32,45 +31,37 @@ const ModuleCommonQuestions = [
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
   {'name': 'Deepnote Lesson',
-   'icon': 'deepnote_button.png',
+   'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-8-d9f39b76-5781-4af5-b332-419e04cd80b2/notebook/M8%20Lesson%20Notebook-f6e5f8c0f1e64f34a657f5b9045606f3'
   },
   {'name': 'Deepnote Assignment',
-   'icon': 'deepnote_button.png',
+   'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-8-d9f39b76-5781-4af5-b332-419e04cd80b2/notebook/M8%20Assignment%20Notebook-ade4261360fe40d3a0a49a4c30d1bbe2'
   },
   {'name': 'Q&A Form',
-   'icon': 'google_forms_button.png',
+   'icon': google_forms_button,
    'link': 'https://www.google.com'
   },
   {'name': 'Video Playlist',
-   'icon': 'youtube_button.png',
+   'icon': youtube_button,
    'link': 'https://youtube.com/playlist?list=PL57-h_jqatSMR6vV5POezAku6_CjkWPoo'
   },
   {'name': 'Presentation Slides',
-   'icon': 'google_slides_button.png',
+   'icon': google_slides_button,
    'link': 'https://docs.google.com/presentation/d/1GUqJw0tLv_vdmNALugF3iO23OaJfg9DrF_z7ugO0XB0/edit?usp=sharing'
   },
 ]
 
 const Module8Page = () => (
   <>
-    <Helmet>
-      <title>Module 8 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 8 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
-    <>
-        <Navbar/>
-        <Content
-            title="SQL"
-            currentPage={8}
-            module_videos_links={ModuleVideosLinks}
-            module_common_questions={ModuleCommonQuestions}
-            module_resources={ModuleResources}
-        />
-    </>
+      <Navbar/>
+      <Content
+          title="SQL"
+          currentPage={8}
+          module_videos_links={ModuleVideosLinks}
+          module_common_questions={ModuleCommonQuestions}
+          module_resources={ModuleResources}
+      />
   </>
 )
 
@@ -78,9 +69,9 @@ export default Module8Page
 
 export const Head = () => {
   <>
-    <title>Module 7 | Data Science Demystified</title>
+    <title>Module 8 | Data Science Demystified</title>
     <meta charSet="utf-8" />
-    <meta name="description" content="Module 7 of Data Science Demystified online course."/>
+    <meta name="description" content="Module 8 of Data Science Demystified online course."/>
     <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
   </>
 }

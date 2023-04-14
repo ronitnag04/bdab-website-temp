@@ -1,7 +1,10 @@
 import React from "react"
-import { Helmet } from "react-helmet"
 import Content from "../../../components/OnlineCourse/Modules/Content"
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
+import deepnote_button from "../../../images/online_course/deepnote_button.png"
+import google_forms_button from "../../../images/online_course/google_forms_button.png"
+import google_slides_button from "../../../images/online_course/google_slides_button.png"
+import youtube_button from "../../../images/online_course/youtube_button.png"
 
 const ModuleVideosLinks = {
   1:{'link':'https://www.youtube.com/embed/BgJ-e4EfhTA',
@@ -22,52 +25,33 @@ const ModuleCommonQuestions = [
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
   {'name': 'Welcome Form',
-   'icon': 'google_forms_button.png',
+   'icon': google_forms_button,
    'link': 'https://docs.google.com/forms/d/e/1FAIpQLSfpsuDv3fZmTlfO2CwIKVoZRpfUANPRX0t5vP-TgluT-mtXDA/viewform'
   },
   {'name': 'Q&A Form',
-   'icon': 'google_forms_button.png',
+   'icon': google_forms_button,
    'link': 'https://www.google.com'
   },
   {'name': 'Video Playlist',
-   'icon': 'youtube_button.png',
+   'icon': youtube_button,
    'link': 'https://youtube.com/playlist?list=PL57-h_jqatSOfvZqjAGfh12FRmqaIGetE'
   },
   {'name': 'Presentation Slides',
-   'icon': 'google_slides_button.png',
+   'icon': google_slides_button,
    'link': 'https://docs.google.com/presentation/d/1K34fJFoMJLrezNfc1YklKkT7I7durx8CkRPpjVrWZqk/edit?usp=sharing'
   },
 ]
 
 const Module0Page = () => (
   <>
-<<<<<<< HEAD
       <Navbar/>
-      <ModuleContent
+      <Content
           title="Setting Up"
           currentPage={0}
           module_videos_links={ModuleVideosLinks}
           module_common_questions={ModuleCommonQuestions}
           module_resources={ModuleResources}
       />
-=======
-    <Helmet>
-      <title>Module 0 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 0 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
-    <>
-        <Navbar/>
-        <Content
-            title="Setting Up"
-            currentPage={0}
-            module_videos_links={ModuleVideosLinks}
-            module_common_questions={ModuleCommonQuestions}
-            module_resources={ModuleResources}
-        />
-    </>
->>>>>>> 6eb6c15f06322ee58775b53241e962a35cf31031
   </>
 )
 

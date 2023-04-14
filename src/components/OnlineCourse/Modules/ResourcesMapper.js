@@ -15,14 +15,11 @@ const ResourcesMapper = (props) => {
         <Container>
             {
                 props.module_resources.map((resource) => 
-                <Resource
-                            resource={resource}
-                />
+                <Resource resource={resource}/>
                 )
             }
         </Container>
-
-      )
+    )
 }
 
 export default ResourcesMapper

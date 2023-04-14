@@ -1,11 +1,10 @@
 import React from "react"
-<<<<<<< HEAD
-import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
-=======
-import { Helmet } from "react-helmet"
 import Content from "../../../components/OnlineCourse/Modules/Content"
->>>>>>> 6eb6c15f06322ee58775b53241e962a35cf31031
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
+import deepnote_button from "../../../images/online_course/deepnote_button.png"
+import google_forms_button from "../../../images/online_course/google_forms_button.png"
+import google_slides_button from "../../../images/online_course/google_slides_button.png"
+import youtube_button from "../../../images/online_course/youtube_button.png"
 
 const ModuleVideosLinks = {
   1:{'link':'https://www.youtube.com/embed/Du3tyAAWWQs',
@@ -36,31 +35,29 @@ const ModuleCommonQuestions = [
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
   {'name': 'Q&A Form',
-   'icon': 'google_forms_button.png',
+   'icon': google_forms_button,
    'link': 'https://www.google.com'
   },
   {'name': 'Video Playlist',
-   'icon': 'youtube_button.png',
+   'icon': youtube_button,
    'link': 'https://youtube.com/playlist?list=PL57-h_jqatSNjqU8J8JL_YBVssAS5P191'
   },
   {'name': 'Presentation Slides',
-   'icon': 'google_slides_button.png',
+   'icon': google_slides_button,
    'link': 'https://docs.google.com/presentation/d/1vM2gEvTyhtBegERHgs97D_pD5wRfPW2TpLMExOKaloY/edit#slide=id.g53d7d090b0_0_33'
   },
 ]
 
 const Module1Page = () => (
   <>
-    <>
-        <Navbar/>
-        <Content
-            title="What is Data Science?"
-            currentPage={1}
-            module_videos_links={ModuleVideosLinks}
-            module_common_questions={ModuleCommonQuestions}
-            module_resources={ModuleResources}
-        />
-    </>
+      <Navbar/>
+      <Content
+          title="What is Data Science?"
+          currentPage={1}
+          module_videos_links={ModuleVideosLinks}
+          module_common_questions={ModuleCommonQuestions}
+          module_resources={ModuleResources}
+      />
   </>
 )
 

@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import header_dots from "../../images/header_dots.png"
 
 const Container = styled.div`
   display: flex;
@@ -41,7 +42,7 @@ const SmallSectionTitle = (props) => {
   return (
     <Container>
       <Title style={{color: props.color === "light"? "#f1f1f2" : "#414142"}}>{props.title}</Title>
-      <Decoration src={require("../../images/header_dots.png")}/>
+      <Decoration src={header_dots}/>
     </Container>
   )
 }

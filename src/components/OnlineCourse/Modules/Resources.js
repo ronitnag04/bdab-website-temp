@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import Resource from './Resource'
 import ResourcesMapper from './ResourcesMapper'
 
 

@@ -4,6 +4,7 @@ import SectionTitle from "../../BigSectionTitle"
 import Description from "../../Description"
 import OCDetailsCard from "./OCDetailsCard"
 import OCStatsBar from "./OCStatsBar"
+import ocd_photo from "../../../images/courses/ocd_photo.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -46,7 +47,7 @@ const OCSection = () => (
             />
             <DetailsContainer>
                 <OCDetailsCard/>
-                <Photo className="item-1" src={require("../../../images/courses/ocd_photo.png")}/>
+                <Photo className="item-1" src={ocd_photo}/>
             </DetailsContainer>
             <OCStatsBar/>
         </DescriptionContainer>

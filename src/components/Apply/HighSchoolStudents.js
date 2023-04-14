@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
+import apply_to_learn_button from "../../images/apply/apply_to_learn_button.png"
+import bootcamp_timeline from "../../images/apply/bootcamp_timeline.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -75,10 +77,10 @@ const HighSchoolStudents = () => (
                 bigdata.berkeley@gmail.com!</>}
             />
             <a href="https://forms.gle/yMZzyKgg4YK2NB9LA" rel="noreferrer" target="_blank">
-                <Button src={require("../../images/apply/apply_to_learn_button.png")}/>
+                <Button src={apply_to_learn_button}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={require("../../images/apply/bootcamp_timeline.png")}/>
+                <TimelineImage src={bootcamp_timeline}/>
             </ImageContainer>
         </DetailsContainer>
     </>

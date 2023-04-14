@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import logo from "../../images/basic_logo.png"
 
 const LogoWrap = styled.div`
   margin: auto 0;
@@ -27,7 +28,7 @@ const LogoImage = styled.img`
 const Logo = () => {
   return (
     <LogoWrap as={Link} to="/">
-      <LogoImage src={require("../../images/basic_logo.png")} alt="logo"/>
+      <LogoImage src={ logo } alt="logo"/>
     </LogoWrap>
   )
 }

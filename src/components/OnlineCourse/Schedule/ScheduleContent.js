@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import ScheduleCards from "./ScheduleCards"
 import OCPageBanner from "../OCPageBanner"
+import footer_art from "../../../images/footer_art.png"
 
 const OuterContainer = styled.div`
     display: flex;
@@ -70,7 +71,7 @@ const ContentContainer = styled.div`
 
 const ScheduleContent = () => (
   <OuterContainer>
-    <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+    <BackgroundImg src={footer_art} alt="art"/>
     <InnerContainer>
         <ContentContainer>
             <OCPageBanner title="Your Schedule" description="begin your journey through our data science course!"/>

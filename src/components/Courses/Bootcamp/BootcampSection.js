@@ -5,6 +5,7 @@ import Description from "../../Description"
 import BootcampDetailsCard from "./BootcampDetailsCard"
 import BootcampStatsBar from "./BootcampStatsBar"
 import QuoteCarousel from "./QuoteCarousel"
+import bootcamp_photo from "../../../images/courses/bootcamp_photo.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -46,7 +47,7 @@ const BootcampSection = () => (
             />
             <SectionComponents>
                 <BootcampDetailsCard/>
-                <Photo className="item-1" src={require("../../../images/courses/bootcamp_photo.png")}/>
+                <Photo className="item-1" src={bootcamp_photo}/>
             </SectionComponents>
         </DescriptionContainer>
         <QuoteCarousel/>

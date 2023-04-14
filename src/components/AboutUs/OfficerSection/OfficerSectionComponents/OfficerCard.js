@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import linkedin from "../../../../images/about_us/linkedin.png"
 
 const Container = styled.div`
     display: flex;
@@ -88,7 +89,7 @@ const OfficerCard = (props) => {
             <InnerContainer>
                 <Label>Contact</Label>
                 <a href={props.linkedin} rel="noreferrer" target="_blank">
-                    <LinkedIn src={require("../../../../images/about_us/linkedin.png")} alt="logo"/>
+                    <LinkedIn src={linkedin} alt="logo"/>
                 </a>
             </InnerContainer>
         </Container>

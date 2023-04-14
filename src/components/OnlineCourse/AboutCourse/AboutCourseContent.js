@@ -4,6 +4,7 @@ import OCPageBanner from "../OCPageBanner"
 import MissionSection from "./MissionSection"
 import OCTeamCardsActive from "./OCTeamCardsActive"
 import OCTeamCardsInactive from "./OCTeamCardsInactive"
+import footer_art from "../../../images/footer_art.png"
 
 const OuterContainer = styled.div`
     display: flex;
@@ -72,7 +73,7 @@ const Contact = styled.h2`
 
 const AboutCourseContent = () => (
   <OuterContainer>
-    <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+    <BackgroundImg src={footer_art} alt="art"/>
     <InnerContainer>
         <ContentContainer>
             <OCPageBanner title="About the Course" description="read about why we made this course!"/>

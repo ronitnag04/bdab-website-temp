@@ -1,6 +1,10 @@
 import React from "react"
 import styled from "styled-components"
 
+import home_button_1 from "../../images/home/home_button_1.png"
+import home_button_2 from "../../images/home/home_button_2.png"
+import home_animation from "../../images/home/home_animation.gif"
+
 const Container = styled.div`
   z-index: 2;
   display: flex;
@@ -117,14 +121,14 @@ const HomeBanner = () => (
       </Description>
       <ButtonContainer className="item-2">
         <a href="/aboutus">
-          <Button className="item-0" src={require("../../images/home/home_button_1.png")}/>
+          <Button className="item-0" src={ home_button_1 }/>
         </a>
         <a href="/apply">
-          <Button className="item-1" src={require("../../images/home/home_button_2.png")}/>
+          <Button className="item-1" src={ home_button_2 }/>
         </a>
       </ButtonContainer>
     </Container>
-    <Gif src={require("../../images/home/home_animation.gif")} alt="gif"/>
+    <Gif src={ home_animation } alt="gif"/>
   </>
 )
 

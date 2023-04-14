@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
+import apply_button from "../../images/apply/apply_button.png"
+import timeline_sp23 from "../../images/apply/timeline_sp23.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -86,10 +88,10 @@ const BerkeleyStudents = () => (
                 </>}
             />
             <a href="https://forms.gle/5epLxQQzz3e9QLBy5" rel="noreferrer" target="_blank">
-                <Button src={require("../../images/apply/apply_button.png")}/>
+                <Button src={apply_button}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={require("../../images/apply/timeline_sp23.png")}/>
+                <TimelineImage src={timeline_sp23}/>
 
             </ImageContainer>
         </DetailsContainer>

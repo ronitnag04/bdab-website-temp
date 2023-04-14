@@ -1,6 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 
+import ocfLogo from "../../images/ocf-hosted-penguin.svg"
+
 const Container = styled.div`
     display: flex;
     justify-content: flex-start;
@@ -41,7 +43,7 @@ const Copyright = () => {
   return (
     <Container>
         <a href="https://www.ocf.berkeley.edu/" rel="noreferrer" target="_blank">
-            <OCFLogo src={require("../../images/ocf-hosted-penguin.svg")} alt="art"/>
+            <OCFLogo src={ ocfLogo } alt="art"/>
         </a>
         <Description>
         Copyright © 2022 Big Data at Berkeley. We are a student group acting independently of the University of 

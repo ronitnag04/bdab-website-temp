@@ -3,12 +3,14 @@ import styled from "styled-components"
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
 import SectionTitle from "../BigSectionTitle"
+import left_arrow from "../../images/left_arrow.png"
+import right_arrow from "../../images/right_arrow.png"
 
 const properties = {
   duration: 30000,
   scale: 3,
-  prevArrow: <div style={{width: "35px", paddingRight: "5px"}}><img src={require("../../images/left_arrow.png")} alt="arrow"/></div>,
-  nextArrow: <div style={{width: "35px", paddingLeft: "5px"}}><img src={require("../../images/right_arrow.png")} alt="arrow"/></div>
+  prevArrow: <div style={{width: "35px", paddingRight: "5px"}}><img src={left_arrow} alt="arrow"/></div>,
+  nextArrow: <div style={{width: "35px", paddingLeft: "5px"}}><img src={right_arrow} alt="arrow"/></div>
 };
 
 const quotes = [

@@ -40,7 +40,7 @@ const CommonQuestion = ({question}) => {
     <QuestionContainer>
         <Question>{question['question']}</Question>
         <Answer>{question['answer']}</Answer>
-        <Instructor>- {question['instructor-name']}</Instructor>
+        {/*<Instructor>- {question['instructor-name']}</Instructor>*/}
     
     </QuestionContainer>
     

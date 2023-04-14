@@ -29,7 +29,7 @@ const Resource = (props) => {
       <ResourcesTitle>{props.resource['name']}</ResourcesTitle>
       <a href={props.resource['link']}>
           <Icon 
-              src={require(`../../../images/online_course/${props.resource['icon']}`)} 
+              src={ props.resource['icon'] } 
               alt={`${props.resource['icon']} Icon`}
           />
       </a>

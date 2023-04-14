@@ -1,6 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 import IntroDetailsCard from "./IntroDetailsCard"
+import footer_art from "../../../images/footer_art.png"
+import bert from "../../../images/bert.png"
+
 
 const OuterContainer = styled.div`
     display: flex;
@@ -94,7 +97,7 @@ const BertImg = styled.img`
 
 const IntroContent = () => (
   <OuterContainer>
-    <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+    <BackgroundImg src={footer_art} alt="art"/>
     <InnerContainer>
         <div>
             <Title className="item-0">Data Science Demystified</Title>
@@ -102,7 +105,7 @@ const IntroContent = () => (
         </div>
         <IntroDetailsCard/>
     </InnerContainer>
-    <BertImg src={require("../../../images/bert.png")} alt="bert"/>
+    <BertImg src={bert} alt="bert"/>
   </OuterContainer>
 )
 

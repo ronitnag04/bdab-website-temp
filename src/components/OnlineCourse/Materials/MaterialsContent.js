@@ -3,6 +3,8 @@ import styled from "styled-components"
 import OCPageBanner from "../OCPageBanner"
 import MaterialsCards from "./MaterialsCards"
 
+import footer_art from "../../../images/footer_art.png"
+
 const OuterContainer = styled.div`
     display: flex;
     position: absolute;
@@ -55,7 +57,7 @@ const ContentContainer = styled.div`
 
 const MaterialsContent = () => (
   <OuterContainer>
-    <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+    <BackgroundImg src={ footer_art } alt="art"/>
     <InnerContainer>
         <ContentContainer>
             <OCPageBanner title="Materials" description="need a refresher? take a look at all of the course materials!"/>

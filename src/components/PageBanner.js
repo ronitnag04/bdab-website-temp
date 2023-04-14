@@ -2,6 +2,8 @@ import React from "react"
 import styled from "styled-components"
 import "../pages/index.css"
 
+import pageBanner from "../images/page_banner_background.png"
+
 const Container = styled.div`
   position: relative;
   display: flex;
@@ -116,7 +118,7 @@ const PageBanner = (props) => {
         <div class="active"><a href="#"></a></div>
         <Description className="item-1">{props.description}</Description>
       </InnerContainer>
-      <Background src={require("../images/page_banner_background.png")}/>
+      <Background src={ pageBanner }/>
     </Container>
   )
 }

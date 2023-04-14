@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 // import "../pages/index.css"
+import header_dots from "../images/header_dots.png"
 
 const Container = styled.div`
   display: flex;
@@ -39,7 +40,7 @@ const BigSectionTitle = (props) => {
   return (
     <Container>
       <Title>{props.title}</Title>
-      <Decoration src={require("../images/header_dots.png")}/>
+      <Decoration src={header_dots}/>
     </Container>
   )
 }
