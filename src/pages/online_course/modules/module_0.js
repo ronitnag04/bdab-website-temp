@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
+import Content from "../../../components/OnlineCourse/Modules/Content"
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
 const ModuleVideosLinks = {
@@ -41,6 +41,7 @@ const ModuleResources = [
 
 const Module0Page = () => (
   <>
+<<<<<<< HEAD
       <Navbar/>
       <ModuleContent
           title="Setting Up"
@@ -49,6 +50,24 @@ const Module0Page = () => (
           module_common_questions={ModuleCommonQuestions}
           module_resources={ModuleResources}
       />
+=======
+    <Helmet>
+      <title>Module 0 | Data Science Demystified</title>
+      <meta charSet="utf-8" />
+      <meta name="description" content="Module 0 of Data Science Demystified online course."/>
+      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
+    </Helmet>
+    <>
+        <Navbar/>
+        <Content
+            title="Setting Up"
+            currentPage={0}
+            module_videos_links={ModuleVideosLinks}
+            module_common_questions={ModuleCommonQuestions}
+            module_resources={ModuleResources}
+        />
+    </>
+>>>>>>> 6eb6c15f06322ee58775b53241e962a35cf31031
   </>
 )
 

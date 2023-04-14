@@ -1,5 +1,10 @@
 import React from "react"
+<<<<<<< HEAD
 import ModuleContent from "../../../components/OnlineCourse/Modules/ModuleContent"
+=======
+import { Helmet } from "react-helmet"
+import Content from "../../../components/OnlineCourse/Modules/Content"
+>>>>>>> 6eb6c15f06322ee58775b53241e962a35cf31031
 import Navbar from "../../../components/OnlineCourse/OCNavbar/OCNavbar"
 
 const ModuleVideosLinks = {
@@ -62,7 +67,7 @@ const Module5Page = () => (
   <>
     <>
         <Navbar/>
-        <ModuleContent
+        <Content
             title="The Data Science Life Cycle"
             currentPage={5}
             module_videos_links={ModuleVideosLinks}

@@ -1,7 +1,10 @@
 import React from 'react'
-import ReactPlayer from 'react-player'
 import styled from "styled-components"
-import MoreMaterialsCard from "./MoreMaterialsCard"
+import CommonQuestions from './CommonQuestions'
+import Resources from './Resources'
+import VideosSidebar from './VideosSidebar'
+import Video from './Video'
+import AllModulesSidebar from './AllModulesSidebar'
 
 const OuterContainer = styled.div`
     display: flex;
@@ -10,13 +13,13 @@ const OuterContainer = styled.div`
     left: 0%;
     background-color: #032345;
     width: 100%;
-    height: 100%;
-    overflow: auto; 
+    height:auto;
+    min-height: 150%;
 `
 
 const BackgroundImg = styled.img`
   opacity: .4;
-  position: absolute;
+  position: fixed;
   background-size: cover;
   background-attachment: fixed;
 `
@@ -28,23 +31,24 @@ const InnerContainer = styled.div`
   flex-flow: column wrap;
   align-items: flex-start;
   position: absolute;
-  width: 80%;
-  top: 20%;
-  left: 5%;
-  right: 10%;
+  width: 80vw;
+  top: 20vh;
+  left: 5vw;
+  right: 10vw;
   transform: translate(5%, 5%);
 
   .item-0 { order: 0; }
   .item-1 { order: 1; }
   .item-2 { order: 2; }
 
-  @media (max-width: 1700px) { top: 15%; }
-  @media (max-width: 1500px) { top: 16% }
-  @media (max-width: 1400px) { top: 15%; right: 40%;}
-  @media (max-width: 900px) { top: 12%; right: 20%; }
-  @media (max-width: 570px) { top: 11%; right: 20%; }
-  @media (max-height: 600px) { top: 20% }
-  @media (max-height: 500px) { top: 30% }
+  @media (max-width: 1700px) { top: 5%; }
+  @media (max-width: 1500px) { top: 5% }
+  @media (max-width: 1400px) { top: 5%; right: 40%;}
+  @media (max-width: 900px) { top: 5%; right: 20%; }
+  @media (max-width: 570px) { top: 5%; right: 20%; }
+  @media (max-height: 600px) { top: 5% }
+  @media (max-height: 500px) { top: 5% }
+  
 `
 
 const TitleContainer = styled.div`
@@ -66,8 +70,8 @@ const Label = styled.h1`
 
 const Title = styled.h1`
   font-family: 'Bebas Neue', cursive;
-  font-size: 80px;
-  line-height: 84px;
+  font-size: 50px;
+  line-height: 54px;
   font-weight: 400;
   color: #f2f2f3;
   letter-spacing: 0.4px;
@@ -125,8 +129,24 @@ const ButtonItem = styled.button`
 const TopContainer = styled.div`
     display: flex;
     justify-content: center;
+    
+    gap: 50px;
+    margin-bottom:50px;
+
+    @media (max-width: 1200px) {
+      flex-flow: wrap;
+      justify-content: flex-start;
+  }
+`
+
+
+const BottomContainer = styled.div`
+    display: flex;
+    justify-content: center;
     flex-flow: nowrap;
     align-items: center;
+    gap: 50px;
+    
 
     @media (max-width: 1200px) {
         flex-flow: wrap;
@@ -134,36 +154,49 @@ const TopContainer = styled.div`
     }
 `
 
-const VideoEmbed = (props) => {
-  const [showNextButton, setShowNextButton] = React.useState(false)
+const Content = (props) => {
+    const [curVideo, setCurVideo] = React.useState(1)
+    const [showSidebar, setShowSidebar] = React.useState(false)
 
   return (
     <OuterContainer>
         <BackgroundImg src={require("../../../images/footer_art.png")} alt="art"/>
+        <AllModulesSidebar
+          showSidebar={showSidebar}
+          setShowSidebar={setShowSidebar}
+          currentPage={props.currentPage}
+        />
+
         <InnerContainer>
             <TitleContainer>
-                <Label>Module {props.label}</Label>
+                <Label>Module {props.currentPage}</Label>
                 <Title>{props.title}</Title>
             </TitleContainer>
+
             <TopContainer>
-                <ReactPlayer className="player"
-                    url={props.lesson_vid_link}
-                    playing
-                    controls
-                    onEnded={() => setShowNextButton(true)}
-                    width="730px"
-                    height="410px"
+                <Video
+                        lesson_vid_link={props.module_videos_links[curVideo]['link']}
                 />
-                <MoreMaterialsCard slides_link={props.slides_link} lesson_notebook_link={props.lesson_notebook_link} assignment_notebook_link={props.assignment_notebook_link}/>
+                <VideosSidebar 
+                    module_videos_links = {props.module_videos_links}
+                    cur_video = {curVideo}
+                    set_cur_video = {setCurVideo}
+                />
             </TopContainer>
-            {showNextButton && (
-                <ButtonItem onClick={() => { setShowNextButton(false) }}>
-                    PRACTICE TIME!
-                </ButtonItem>
-            )}
+
+            <BottomContainer>
+              <CommonQuestions 
+                    module_common_questions={props.module_common_questions}
+              />
+              <Resources
+                    module_resources={props.module_resources}
+              />
+            </BottomContainer>
+            
         </InnerContainer>
+
     </OuterContainer>
   )
 }
 
-export default VideoEmbed
+export default Content

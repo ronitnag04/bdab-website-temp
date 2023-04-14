@@ -56,12 +56,6 @@ const ModuleResources = [
 
 const Module6Page = () => (
   <>
-    <Helmet>
-      <title>Module 6 | Data Science Demystified</title>
-      <meta charSet="utf-8" />
-      <meta name="description" content="Module 6 of Data Science Demystified online course."/>
-      <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
-    </Helmet>
     <>
         <Navbar/>
         <ModuleContent
