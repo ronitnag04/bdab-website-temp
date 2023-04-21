@@ -28,9 +28,9 @@ const ModuleResources = [
    'icon': google_forms_button,
    'link': 'https://docs.google.com/forms/d/e/1FAIpQLSfpsuDv3fZmTlfO2CwIKVoZRpfUANPRX0t5vP-TgluT-mtXDA/viewform'
   },
-  {'name': 'Q&A Form',
+  {'name': 'Module Feedback Form',
    'icon': google_forms_button,
-   'link': 'https://www.google.com'
+   'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeLsjTm6F88suyBfsr3hT5Pd6M10Yy1KrnEkMDIW_fgl88USQ/viewform'
   },
   {'name': 'Video Playlist',
    'icon': youtube_button,

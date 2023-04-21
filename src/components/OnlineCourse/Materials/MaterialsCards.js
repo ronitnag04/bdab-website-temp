@@ -3,19 +3,15 @@ import styled from "styled-components"
 import Card from "./MaterialsCard"
 
 const modules_materials = [
-    {label: 0,
+   {label: 0,
     title: "Setting Up",
     lesson_vid_link: "https://youtube.com/playlist?list=PL57-h_jqatSOfvZqjAGfh12FRmqaIGetE",
-    slides_link: "https://docs.google.com/presentation/d/1K34fJFoMJLrezNfc1YklKkT7I7durx8CkRPpjVrWZqk/edit?usp=sharing",
-    assignment_notebook_link: "/",
-    lesson_notebook_link: "/"
+    slides_link: "https://docs.google.com/presentation/d/1K34fJFoMJLrezNfc1YklKkT7I7durx8CkRPpjVrWZqk/edit?usp=sharing"
    },
    {label: 1, 
    title: "What is Data Science?",
    lesson_vid_link: "https://youtube.com/playlist?list=PL57-h_jqatSNjqU8J8JL_YBVssAS5P191",
-   slides_link: "https://docs.google.com/presentation/d/1vM2gEvTyhtBegERHgs97D_pD5wRfPW2TpLMExOKaloY/edit#slide=id.g53d7d090b0_0_33",
-   assignment_notebook_link: "/",
-   lesson_notebook_link: "/"
+   slides_link: "https://docs.google.com/presentation/d/1vM2gEvTyhtBegERHgs97D_pD5wRfPW2TpLMExOKaloY/edit#slide=id.g53d7d090b0_0_33"
    },
    {label: 2, 
    title: "Python & NumPy",
@@ -42,15 +38,13 @@ const modules_materials = [
    title: "The Data Science Life Cycle",
    lesson_vid_link: "https://youtube.com/playlist?list=PL57-h_jqatSPlxW6aKvSAvoFLvC7GR7E_",
    slides_link: "https://docs.google.com/presentation/d/1TZTQJNym_QUKgDa3043cX_E5WKou-FsWw_qsjA48TfM/edit?usp=sharing",
-   assignment_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-5-6b4771dd-79ac-403b-bea2-1191b59dd0af/notebook/Module%205%20Notebook-3aa749bc92104fe68e0065d30e2d40c2",
-   lesson_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-5-6b4771dd-79ac-403b-bea2-1191b59dd0af/notebook/Module%205%20Notebook-3aa749bc92104fe68e0065d30e2d40c2"
+   assignment_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-5-6b4771dd-79ac-403b-bea2-1191b59dd0af/notebook/Module%205%20Notebook-3aa749bc92104fe68e0065d30e2d40c2"
    },
    {label: 6,
    title: "Intro to Machine Learning",
    lesson_vid_link: "https://youtube.com/playlist?list=PL57-h_jqatSN40kqrRgkeJD4YxkBiow-s",
    slides_link: "https://docs.google.com/presentation/d/1zwpMr25nJZUFyF7sDha7HD8X2rXdNce7KRVZxUfggT8/edit?usp=sharing",
-   assignment_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-6-dbe3d75d-e076-4d82-9668-2cacd19d46c5/notebook/Assignment%20Notebook-97edef24f6b54bc2ae40a7bebf3df628",
-   lesson_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-6-dbe3d75d-e076-4d82-9668-2cacd19d46c5/notebook/Assignment%20Notebook-97edef24f6b54bc2ae40a7bebf3df628"
+   assignment_notebook_link: "https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-6-dbe3d75d-e076-4d82-9668-2cacd19d46c5/notebook/Assignment%20Notebook-97edef24f6b54bc2ae40a7bebf3df628"
    },
    {label: 7,
    title: "Statistics in Data Science",

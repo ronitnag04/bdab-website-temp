@@ -30,6 +30,10 @@ const ModuleCommonQuestions = [
 
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
+  {'name': 'Full Course Evaluation Form',
+  'icon': google_forms_button,
+  'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeti_KdT4tP4xgQkUgWb6b_ydAMRVh3ZlbB0PJqNDFH-W_ubw/viewform'
+  },
   {'name': 'Deepnote Lesson',
    'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-8-d9f39b76-5781-4af5-b332-419e04cd80b2/notebook/M8%20Lesson%20Notebook-f6e5f8c0f1e64f34a657f5b9045606f3'
@@ -38,9 +42,9 @@ const ModuleResources = [
    'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-8-d9f39b76-5781-4af5-b332-419e04cd80b2/notebook/M8%20Assignment%20Notebook-ade4261360fe40d3a0a49a4c30d1bbe2'
   },
-  {'name': 'Q&A Form',
-   'icon': google_forms_button,
-   'link': 'https://www.google.com'
+  {'name': 'Module Feedback Form',
+  'icon': google_forms_button,
+  'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeLsjTm6F88suyBfsr3hT5Pd6M10Yy1KrnEkMDIW_fgl88USQ/viewform'
   },
   {'name': 'Video Playlist',
    'icon': youtube_button,

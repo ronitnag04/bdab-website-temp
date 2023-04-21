@@ -44,13 +44,13 @@ const ModuleResources = [
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-2-9e173e50-6ab0-48b5-99a8-70e6bd3491e7/notebook/M2%20Lesson%20Notebook-4bad20ec8db44534b7c25638921fc8ff'
   },
   */
-  {'name': 'Deepnote Lesson/Assignment',
+  {'name': 'Lesson & Assignment Notebook',
    'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-5-6b4771dd-79ac-403b-bea2-1191b59dd0af/notebook/Module%205%20Notebook-3aa749bc92104fe68e0065d30e2d40c2'
   },
-  {'name': 'Q&A Form',
+  {'name': 'Module Feedback Form',
    'icon': google_forms_button,
-   'link': 'https://www.google.com'
+   'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeLsjTm6F88suyBfsr3hT5Pd6M10Yy1KrnEkMDIW_fgl88USQ/viewform'
   },
   {'name': 'Video Playlist',
    'icon': youtube_button,

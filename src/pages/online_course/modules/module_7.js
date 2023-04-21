@@ -40,9 +40,9 @@ const ModuleResources = [
    'icon': deepnote_button,
    'link': 'https://deepnote.com/workspace/big-data-at-berkeley-447a-f968b37c-a5f2-41e2-bcd6-76e997077bdf/project/Module-7-9e80cc96-c4f4-45be-af58-54fa17cac36e/notebook/M7%20Assignment%20Notebook-125f25abafe54b69b4dc67b540556ce1'
   },
-  {'name': 'Q&A Form',
-   'icon': google_forms_button,
-   'link': 'https://www.google.com'
+  {'name': 'Module Feedback Form',
+  'icon': google_forms_button,
+  'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeLsjTm6F88suyBfsr3hT5Pd6M10Yy1KrnEkMDIW_fgl88USQ/viewform'
   },
   {'name': 'Video Playlist',
    'icon': youtube_button,

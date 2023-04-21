@@ -39,6 +39,10 @@ const Details = styled.h1`
     margin: 0px 10px 5px 10px;
 `
 
+const SlayLink = styled.a`
+    color: #4f96c7;
+`
+
 const Button = styled.button`
   font-family: 'Bebas Neue', cursive;
   font-size : 23px;
@@ -100,6 +104,9 @@ const IntroDetailsCard = () => {
 
             <Label>Earn</Label>
             <Details>Certificate of Completion</Details>
+
+            <Label>Enroll</Label>
+            <Details>Please fill out <SlayLink href="https://docs.google.com/forms/d/e/1FAIpQLSfpsuDv3fZmTlfO2CwIKVoZRpfUANPRX0t5vP-TgluT-mtXDA/viewform">this form</SlayLink> to enroll in the course!</Details>
 
             <IntroStatsBar/>
 
