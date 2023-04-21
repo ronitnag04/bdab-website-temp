@@ -34,7 +34,7 @@ const ModuleCommonQuestions = [
 
 // Images must be in ../../../images/online_course/
 const ModuleResources = [
-  {'name': 'Q&A Form',
+  {'name': 'Module Feedback Form',
    'icon': google_forms_button,
    'link': 'https://www.google.com'
   },
