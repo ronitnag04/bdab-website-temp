@@ -2,7 +2,7 @@
 # Big Data at Berkeley's Website
 
 #### Author: Melissa Wong
-#### Modifier(s): Izzie Lau, Sofia Kwee, Erin Hong, Ronit Nagarapu, Sean She, Daniel Tsan
+#### Modifier(s): Izzie Lau, Sofia Kwee, Erin Hong, April Zhang, Ronit Nagarapu, Sean She, Daniel Tsan
 #### Last Modified: 4/14/23
 
 ***
