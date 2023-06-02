@@ -35,7 +35,7 @@ const ExecBoardCards = () => (
             />
             <OfficerCard className="item-2"
                 committee="exec"
-                name="April Zhang"
+                name="Ria Jain"
                 photoLink={execArr[2]}
                 role="VP of Development"
                 interest1="Playing tennis"
