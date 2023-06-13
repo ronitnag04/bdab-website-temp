@@ -11,17 +11,6 @@ module.exports = {
     lang: `en`
   },
   plugins: [
-    "gatsby-plugin-styled-components",
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    "gatsby-transformer-json",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -33,12 +22,19 @@ module.exports = {
         pluginConfig: {
           // Puts tracking script in the head instead of the body
           head: true,
-          // Defaults to https://www.googletagmanager.com
-          origin: "YOUR_SELF_HOSTED_ORIGIN",
-          // Delays processing pageview events on route update (in milliseconds)
-          delayOnRouteUpdate: 0,
         },
       },
     },
+    "gatsby-plugin-styled-components",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    "gatsby-transformer-json",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
   ]
 };
