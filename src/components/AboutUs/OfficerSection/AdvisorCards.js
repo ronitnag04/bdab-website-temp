@@ -14,22 +14,22 @@ const AdvisorCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
-                name="Aurum Kathuria"
+                name="Emily Holmes"
                 photoLink={advisorArr[0]}
                 role="Senior Advisor"
-                interest1="Having Amazing Conversations"
-                interest2="Optimizing Productivity"
-                interest3="Self-Improvement"
-                linkedin="http://www.linkedin.com/in/heyaurum"
+                interest1="Trying new coffee shops"
+                interest2="Watching Reality TV"
+                interest3="Baking apple pies"
+                linkedin="https://www.linkedin.com/in/emily--holmes/"
             />
             <OfficerCard className="item-1"
-                name="Ronak Laddha"
+                name="Vinay Kanigicherla"
                 photoLink={advisorArr[1]}
                 role="Senior Advisor"
-                interest1="Cold Brew"
-                interest2="Playing Soccer"
-                interest3="Making Large Spotify Playlists"
-                linkedin="https://www.linkedin.com/in/ronak-laddha/"
+                interest1="Playing Badminton and Tennis"
+                interest2="Listening to rap"
+                interest3="Watching F1, MMA, and NFL"
+                linkedin="https://www.linkedin.com/in/vinaykanigicherla/"
             />
             <OfficerCard className="item-2"
                 name="Sophia Kwee"

@@ -24,13 +24,13 @@ const EducationCards = () => (
                 linkedin="https://www.linkedin.com/in/saaketh-gunukula-192a52178/"
             />
             <OfficerCard className="item-1"
-                name="Madeleine Larson"
+                name="Aadhiti Ghankota"
                 photoLink={educationArr[1]}
-                role="Head Instructor"
-                interest1="Playing video games"
-                interest2="Sustainability and thrifting"
-                interest3="collecting succulents from Trader Joes"
-                linkedin="https://www.linkedin.com/in/madeleinelarson/"
+                role="Head Instructor "
+                interest1="Trying new cuisines"
+                interest2="Exploring new place"
+                interest3="Hiking"
+                linkedin="https://www.linkedin.com/in/aghankota/"
             />
             <OfficerCard className="item-2"
                 name="Hrishikesh Ingale"
@@ -40,24 +40,25 @@ const EducationCards = () => (
                 interest2="Dancing #UCBAZAAD"
                 interest3="Love ranch dressing"
                 linkedin="https://www.linkedin.com/in/hrishikesh-ingale/"
+                
             />
             <OfficerCard className="item-3"
-                name="Cadence Hsu"
+                name="Ashwin Gopalan"
                 photoLink={educationArr[3]}
-                role="OC Head of Marketing"
-                interest1="Going to the beach"
-                interest2="Thrifting"
-                interest3="Trying new coffee/food places"
-                linkedin="https://www.linkedin.com/in/cadyhsu/"
+                role="Bootcamp Head of Curriculum"
+                interest1="Cooking (and eating...)"
+                interest2= "Playing golf or soccer"
+                interest3="Finding new music"
+                linkedin="https://www.linkedin.com/in/ashwin-gopalan-147a2b1b4/"
             />
             <OfficerCard className="item-4"
-                name="Seah She"
+                name="Ronit Nagarapu"
                 photoLink={educationArr[4]}
                 role="OC Head of Web Development"
-                interest1="Going out on spontaneous trips"
-                interest2= "Creating notion pages"
-                interest3="Croffles"
-                linkedin="https://www.linkedin.com/in/sean-she/"
+                interest1="Taekwondo"
+                interest2= "Tennis"
+                interest3="DIY Electronics"
+                linkedin="https://www.linkedin.com/in/ronit-nagarapu"
             />
             <OfficerCard className="item-5"
                 name="Kaito Garcia"
@@ -68,15 +69,16 @@ const EducationCards = () => (
                 interest3="Weighlifting"
                 linkedin="https://www.linkedin.com/in/kaitogarcia/"
             />
-            <OfficerCard className="item-5"
-                name="Ashwin Gopalan"
+            <OfficerCard className="item-6"
+                name="Karina Parikh"
                 photoLink={educationArr[6]}
-                role="Bootcamp Head of Curriculum"
-                interest1="Cooking (and eating...)"
-                interest2= "Playing golf or soccer"
-                interest3="Finding new music"
-                linkedin="https://www.linkedin.com/in/ashwin-gopalan-147a2b1b4/"
+                role="OC Head of Marketing"
+                interest1="Running"
+                interest2="Traveling"
+                interest3="Exploring new cafes / restaurants"
+                linkedin="https://www.linkedin.com/in/karina-parikh/"
             />
+        
 
         </CardContainer>
     </>
