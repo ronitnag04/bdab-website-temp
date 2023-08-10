@@ -13,7 +13,7 @@ import edu3 from "../../../../images/about_us/officer_photos/education/hrishikes
 import edu4 from "../../../../images/about_us/officer_photos/education/ashwin.png"
 import edu5 from "../../../../images/about_us/officer_photos/education/ronit.jpg"
 import edu6 from "../../../../images/about_us/officer_photos/education/kaito.jpg"
-import edu7 from "../../../../images/about_us/officer_photos/education/cadence.jpg"
+import edu7 from "../../../../images/about_us/officer_photos/education/karina.jpg"
 
 
 import proj1 from "../../../../images/about_us/officer_photos/projects/irene.jpg"
