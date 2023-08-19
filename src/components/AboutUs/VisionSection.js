@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
-import entire_club from "../../images/about_us/entire_club.png"
+import entire_club from "../../images/about_us/current_club.jpg"
 
 const DescriptionContainer = styled.div`
     display: flex;

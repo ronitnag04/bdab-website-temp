@@ -28,11 +28,17 @@ const CommitteeSection = () => (
                 that help businesses make better decisions.</>}
             />
             <Card className="item-1"
-                title="Education Committee"
+                title="Bootcamp"
                 icon={icon2}
                 link="/courses"
-                description={<>The Education Committee’s goal is to make data science education accessible to those 
-                of <b>all ages and locations.</b> We run the Big Data Bootcamp hosted at UC Berkeley and a completely new, 
+                description={<>The Bootcamp Committee aims to provide a <b>data science education</b> to high school students through our Big Data Bootcamp hosted in the Fall and Spring.</>}
+            />
+            <Card className="item-2"
+                title="Online Couse"
+                icon={icon2}
+                link="/courses"
+                description={<>The Online Course Committee’s goal is to make data science education accessible to those 
+                of <b>all ages and locations.</b> We've launched a completely new, 
                 original Data Science Demystified online course.</>}
             />
         </CardContainer>

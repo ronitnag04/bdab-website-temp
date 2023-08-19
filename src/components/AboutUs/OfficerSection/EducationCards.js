@@ -61,13 +61,13 @@ const EducationCards = () => (
                 linkedin="https://www.linkedin.com/in/ronit-nagarapu"
             />
             <OfficerCard className="item-5"
-                name="Kaito Garcia"
+                name="Gokce Gozek"
                 photoLink={educationArr[5]}
                 role="OC Head of Curriculum"
-                interest1="Basketball"
-                interest2= "Guitar & Piano"
-                interest3="Weighlifting"
-                linkedin="https://www.linkedin.com/in/kaitogarcia/"
+                interest1="Reading"
+                interest2= "Listening to music"
+                interest3="Traveling"
+                linkedin="https://www.linkedin.com/in/gokce-gozek-754818225/"
             />
             <OfficerCard className="item-6"
                 name="Karina Parikh"
