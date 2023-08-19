@@ -22,6 +22,7 @@ const EducationCards = () => (
                 interest2="Listening to rap"
                 interest3="Watching basketball"
                 linkedin="https://www.linkedin.com/in/saaketh-gunukula-192a52178/"
+                calendly="https://www.calendy.com"
             />
             <OfficerCard className="item-1"
                 name="Aadhiti Ghankota"

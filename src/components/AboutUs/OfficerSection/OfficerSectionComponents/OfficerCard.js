@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import linkedin from "../../../../images/about_us/linkedin.png"
+import calendly from "../../../../images/about_us/calendly.png"
 
 const Container = styled.div`
     display: flex;
@@ -25,6 +26,15 @@ const Photo = styled.img`
 const LinkedIn = styled.img`
     border-radius: 5px;
     height: 25px;
+    margin-right: 4px;
+
+    :hover { opacity: 0.9; }
+`
+
+const Calendly = styled.img`
+    border-radius: 5px;
+    height: 25px;
+    margin-right: 4px;
 
     :hover { opacity: 0.9; }
 `
@@ -90,6 +100,9 @@ const OfficerCard = (props) => {
                 <Label>Contact</Label>
                 <a href={props.linkedin} rel="noreferrer" target="_blank">
                     <LinkedIn src={linkedin} alt="logo"/>
+                </a>
+                <a href={props.calendly} rel="noreferrer" target="_blank">
+                    <Calendly src={calendly} alt="logo"/>
                 </a>
             </InnerContainer>
         </Container>
