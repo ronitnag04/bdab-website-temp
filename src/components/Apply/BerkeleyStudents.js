@@ -3,7 +3,7 @@ import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
 import apply_button from "../../images/apply/apply_button.png"
-import timeline_sp23 from "../../images/apply/fa23_timeline.png"
+import fa23_timeline from "../../images/apply/fa23_timeline.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -91,7 +91,7 @@ const BerkeleyStudents = () => (
                 <Button src={apply_button}/>
             </a>
             <ImageContainer>
-                <TimelineImage src={timeline_sp23}/>
+                <TimelineImage src={fa23_timeline}/>
 
             </ImageContainer>
         </DetailsContainer>
