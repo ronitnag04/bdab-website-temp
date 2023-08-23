@@ -3,7 +3,7 @@ import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
 import apply_button from "../../images/apply/apply_button.png"
-import timeline_sp23 from "../../images/apply/timeline_sp23.png"
+import timeline_sp23 from "../../images/apply/fa23_timeline.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
@@ -78,16 +78,16 @@ const BerkeleyStudents = () => (
         <DescriptionContainer>
             <Description
                 description={<>For students interested in working on a consulting project or teaching data science in BDAB:
-                    apply to our education committee, projects committee, or both for the Spring 2023 semester. There
+                    apply to our education committee, projects committee, or both for the Fall 2023 semester. There
                     is only one application. <b>You must apply to at least one committee.</b> Looking forward to meeting you!</>}
             />
         </DescriptionContainer>
         <DetailsContainer>
             <Description
-                description={<>The application is due on Friday, January 27th at 10 pm PST.
+                description={<>The application is due on Wednesday, September 6th at 11:59 pm PST.
                 </>}
             />
-            <a href="https://forms.gle/5epLxQQzz3e9QLBy5" rel="noreferrer" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdtn6yYPr20V0zaHU1hyGQGIMMabjSrGznwl06JOtM3I1ujHw/viewform" rel="noreferrer" target="_blank">
                 <Button src={apply_button}/>
             </a>
             <ImageContainer>
