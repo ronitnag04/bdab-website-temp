@@ -43,7 +43,7 @@ const ExecBoardCards = () => (
                 interest1="Reading"
                 interest2="Watching sunsets"
                 interest3="Stargazing"
-                linkedin="www.linkedin.com/in/riajain230"
+                linkedin="https://www.linkedin.com/in/riajain230"
                 calendly ="https://calendly.com/ria_jain/coffeechat"
             />
             <OfficerCard className="item-3"

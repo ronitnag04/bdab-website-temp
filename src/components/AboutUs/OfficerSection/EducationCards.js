@@ -22,7 +22,7 @@ const EducationCards = () => (
                 interest2="Listening to rap"
                 interest3="Watching basketball"
                 linkedin="https://www.linkedin.com/in/saaketh-gunukula-192a52178/"
-                calendly="https://www.calendy.com"
+                calendly=""
             />
             <OfficerCard className="item-1"
                 name="Aadhiti Ghankota"
@@ -32,6 +32,7 @@ const EducationCards = () => (
                 interest2="Exploring new place"
                 interest3="Hiking"
                 linkedin="https://www.linkedin.com/in/aghankota/"
+                calendly = ""
             />
             <OfficerCard className="item-2"
                 name="Hrishikesh Ingale"
@@ -41,6 +42,7 @@ const EducationCards = () => (
                 interest2="Dancing #UCBAZAAD"
                 interest3="Love ranch dressing"
                 linkedin="https://www.linkedin.com/in/hrishikesh-ingale/"
+                calendly = ""
                 
             />
             <OfficerCard className="item-3"
@@ -51,6 +53,7 @@ const EducationCards = () => (
                 interest2= "Playing golf or soccer"
                 interest3="Finding new music"
                 linkedin="https://www.linkedin.com/in/ashwin-gopalan-147a2b1b4/"
+                calendly = ""
             />
             <OfficerCard className="item-4"
                 name="Ronit Nagarapu"
@@ -60,6 +63,7 @@ const EducationCards = () => (
                 interest2= "Tennis"
                 interest3="DIY Electronics"
                 linkedin="https://www.linkedin.com/in/ronit-nagarapu"
+                calendly = "https://calendly.com/ronitnag04"
             />
             <OfficerCard className="item-5"
                 name="Gokce Gozek"
@@ -69,6 +73,7 @@ const EducationCards = () => (
                 interest2= "Listening to music"
                 interest3="Traveling"
                 linkedin="https://www.linkedin.com/in/gokce-gozek-754818225/"
+                calendly = ""
             />
             <OfficerCard className="item-6"
                 name="Karina Parikh"
@@ -78,6 +83,7 @@ const EducationCards = () => (
                 interest2="Traveling"
                 interest3="Exploring new cafes / restaurants"
                 linkedin="https://www.linkedin.com/in/karina-parikh/"
+                calendly = ""
             />
         
 

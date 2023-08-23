@@ -3,7 +3,7 @@ import styled from "styled-components"
 import SectionTitle from "../BigSectionTitle"
 import Description from "../Description"
 import apply_button from "../../images/apply/apply_button.png"
-import fa23_timeline from "../../images/apply/fa23_timeline.png"
+import fa23_timeline from "../../images/apply/fa23timeline.png"
 
 const DescriptionContainer = styled.div`
     display: flex;
