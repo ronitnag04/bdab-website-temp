@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
 import linkedin from "../../../../images/about_us/linkedin.png"
-import calendly from "../../../../images/about_us/calendly.png"
+import calendly from "../../../../images/about_us/calendar.png"
 
 const Container = styled.div`
     display: flex;
@@ -26,7 +26,7 @@ const Photo = styled.img`
 const LinkedIn = styled.img`
     border-radius: 5px;
     height: 25px;
-    margin-right: 4px;
+    margin-right: 6px;
 
     :hover { opacity: 0.9; }
 `
@@ -34,7 +34,7 @@ const LinkedIn = styled.img`
 const Calendly = styled.img`
     border-radius: 5px;
     height: 25px;
-    margin-right: 4px;
+    margin-right: 6px;
 
     :hover { opacity: 0.9; }
 `
