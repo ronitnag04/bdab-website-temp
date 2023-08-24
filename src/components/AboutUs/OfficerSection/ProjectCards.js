@@ -55,7 +55,7 @@ const ProjectCards = () => (
                 interest2=""
                 interest3=""
                 linkedin="https://www.linkedin.com/in/rayan-taghizadeh/"
-                calendly = ""
+                calendly = "https://calendly.com/rayantag"
             />
 
              <OfficerCard className="item-6"
