@@ -35,14 +35,14 @@ const EducationCards = () => (
                 calendly = ""
             />
             <OfficerCard className="item-2"
-                name="Hrishikesh Ingale"
+                name="Garima Gupta"
                 photoLink={educationArr[2]}
                 role="Head Instructor"
-                interest1="Spending time with friends"
-                interest2="Dancing #UCBAZAAD"
-                interest3="Love ranch dressing"
-                linkedin="https://www.linkedin.com/in/hrishikesh-ingale/"
-                calendly = ""
+                interest1="Basketball"
+                interest2="Listening to Music"
+                interest3=" Exploring new places"
+                linkedin="www.linkedin.com/in/garima-gupta-a78a66183"
+                calendly = "https://calendly.com/01garimagupta"
                 
             />
             <OfficerCard className="item-3"
@@ -53,7 +53,7 @@ const EducationCards = () => (
                 interest2= "Playing golf or soccer"
                 interest3="Finding new music"
                 linkedin="https://www.linkedin.com/in/ashwin-gopalan-147a2b1b4/"
-                calendly = ""
+                calendly = "https://calendly.com/d/4d4-4hc-wzx/one-off-meeting"
             />
             <OfficerCard className="item-4"
                 name="Ronit Nagarapu"

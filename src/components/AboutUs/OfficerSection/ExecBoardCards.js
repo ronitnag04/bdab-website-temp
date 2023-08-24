@@ -22,7 +22,7 @@ const ExecBoardCards = () => (
                 interest2="Weightlifting"
                 interest3="Buying indoor plants"
                 linkedin="https://www.linkedin.com/in/lara-panigrahi-9570581b9"
-                calendly = ""
+                calendly = "http://calendly.com/larapanigrahi"
             />
             <OfficerCard className="item-1"
                 committee="exec"
@@ -55,7 +55,7 @@ const ExecBoardCards = () => (
                 interest2="Tennis"
                 interest3="Watching sports"
                 linkedin="https://www.linkedin.com/in/ethanpreston/"
-                calendly = ""
+                calendly = "https://calendly.com/ethanpreston"
             />
             <OfficerCard className="item-4"
                 committee="exec"
@@ -66,7 +66,7 @@ const ExecBoardCards = () => (
                 interest2="Lifting"
                 interest3="Ocean Swims"
                 linkedin="https://www.linkedin.com/in/priya-k-/"
-                calendly = ""
+                calendly = "https://calendly.com/priyak22"
             />
             <OfficerCard className="item-5"
                 committee="exec"
@@ -88,7 +88,7 @@ const ExecBoardCards = () => (
                 interest2="Exploring new cafes"
                 interest3="Creating Playlists on Spotify"
                 linkedin="https://www.linkedin.com/in/madeleinelarson/"
-                calendly = ""
+                calendly = "https://calendly.com/maddielarson/bdab-coffee-chat-w-maddie"
             />
             <OfficerCard className="item-7"  
                 committee="exec"

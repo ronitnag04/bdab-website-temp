@@ -22,7 +22,7 @@ const ProjectCards = () => (
                 interest2="Reading"
                 interest3="Playing music"
                 linkedin="https://www.linkedin.com/in/irenehng/"
-                calendly = ""
+                calendly = "https://calendly.com/irene-ng-2/bdabcoffeechat"
             />
             <OfficerCard className="item-1"
                 committee="project"
@@ -33,7 +33,7 @@ const ProjectCards = () => (
                 interest2="Baking chocolate chip cookies"
                 interest3="Painting"
                 linkedin="https://www.linkedin.com/in/tanvi-khot/"
-                calendly = ""
+                calendly = "https://calendly.com/tanvikhot"
             />
             <OfficerCard className="item-2"
                 committee="project"
@@ -44,7 +44,7 @@ const ProjectCards = () => (
                 interest2="Baking"
                 interest3="Listening to music"
                 linkedin="https://www.linkedin.com/in/michael-chigaev-615b5b234"
-                calendly = ""
+                calendly = "https://calendly.com/mchigaev"
             />
             <OfficerCard className="item-3"
                 committee="project"
@@ -67,7 +67,7 @@ const ProjectCards = () => (
                 interest2="Hiking"
                 interest3="Eating"
                 linkedin="https://www.linkedin.com/in/yashb30/"
-                calendly = ""
+                calendly = "https://calendly.com/yashb30/coffee-chats-1"
             /> 
             <OfficerCard className="item-5"
                 committee="project"
@@ -78,7 +78,7 @@ const ProjectCards = () => (
                 interest2="Listening to Music"
                 interest3="Reading"
                 linkedin=""
-                calendly = ""
+                calendly = "https://calendly.com/matzsong/bdab-coffee-chat"
             />
         </CardContainer>
     </>

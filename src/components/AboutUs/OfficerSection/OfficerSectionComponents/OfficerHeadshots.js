@@ -9,7 +9,7 @@ import exec8 from "../../../../images/about_us/officer_photos/exec/cadence.jpg"
 
 import edu1 from "../../../../images/about_us/officer_photos/education/saaketh.png"
 import edu2 from "../../../../images/about_us/officer_photos/education/aadhiti.jpg"
-import edu3 from "../../../../images/about_us/officer_photos/education/hrishikesh.png"
+import edu3 from "../../../../images/about_us/officer_photos/education/garima_new.jpg"
 import edu4 from "../../../../images/about_us/officer_photos/education/ashwin.png"
 import edu5 from "../../../../images/about_us/officer_photos/education/ronit.jpg"
 import edu6 from "../../../../images/about_us/officer_photos/education/gokce.jpeg"
