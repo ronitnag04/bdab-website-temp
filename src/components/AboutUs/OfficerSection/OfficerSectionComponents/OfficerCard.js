@@ -102,7 +102,7 @@ const OfficerCard = (props) => {
                     <LinkedIn src={linkedin} alt="logo"/>
                 </a>
 
-                {props.calendly == "" ? <></> :
+                {props.calendly === "" || props.calendly === null ? <></> :
                     <a href={props.calendly} rel="noreferrer" target="_blank">
                         <Calendly src={calendly} alt="logo"/>
                     </a>

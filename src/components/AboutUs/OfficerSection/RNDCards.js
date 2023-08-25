@@ -10,7 +10,7 @@ const CardContainer = styled.div`
     flex-wrap: wrap;
 `
 
-const AdvisorCards = () => (
+const RNDCards = () => (
     <>
         <CardContainer>
             <OfficerCard className="item-0"
@@ -21,6 +21,7 @@ const AdvisorCards = () => (
                 interest2="Watching Reality TV"
                 interest3="Baking apple pies"
                 linkedin="https://www.linkedin.com/in/emily--holmes/"
+                calendly = ""
             />
             <OfficerCard className="item-1"
                 name="Vinay Kanigicherla"
@@ -30,7 +31,9 @@ const AdvisorCards = () => (
                 interest2="Listening to rap"
                 interest3="Watching F1, MMA, and NFL"
                 linkedin="https://www.linkedin.com/in/vinaykanigicherla/"
+                calendly = ""
             />
+            {/*
             <OfficerCard className="item-2"
                 name="Sophia Kwee"
                 photoLink={advisorArr[2]}
@@ -39,9 +42,10 @@ const AdvisorCards = () => (
                 interest2="Munching"
                 interest3="Sleeping"
                 linkedin="https://www.linkedin.com/in/sofia-kwee/"
-            />
+                calendly = ""
+            /> */}
         </CardContainer>
     </>
 )
 
-export default AdvisorCards
+export default RNDCards

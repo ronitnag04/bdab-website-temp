@@ -58,19 +58,21 @@ function FilterCards() {
   const [selectedSomethingElse, setSelectedSomethingElse] = useState(false);
   const [isExec, setIsExec] = useState(true);
   const [isProj, setIsProj] = useState(false);
-  const [isEdu, setIsEdu] = useState(false);
-  const [isAdv, setIsAdv] = useState(false);
+  const [isBoot, setIsBoot] = useState(false);
+  const [isOc, setIsOc] = useState(false);
+  const [isRnd, setIsRnd] = useState(false);
   const [isFound, setIsFound] = useState(false);
 
   const LoadComponent = async location => {
     const { default: component } = await import(`./${location}`);
     setComponent(component);
     setSelectedSomethingElse(true);
-    if (location === "ExecBoardCards") { setIsExec(true); setIsProj(false); setIsEdu(false); setIsAdv(false); setIsFound(false); }
-    if (location === "ProjectCards") { setIsExec(false); setIsProj(true); setIsEdu(false); setIsAdv(false); setIsFound(false); }
-    if (location === "EducationCards") { setIsExec(false); setIsProj(false); setIsEdu(true); setIsAdv(false); setIsFound(false); }
-    if (location === "AdvisorCards") { setIsExec(false); setIsProj(false); setIsEdu(false); setIsAdv(true); setIsFound(false); }
-    if (location === "FounderCards") { setIsExec(false); setIsProj(false); setIsEdu(false); setIsAdv(false); setIsFound(true); }
+    if (location === "ExecBoardCards") { setIsExec(true); setIsProj(false); setIsBoot(false); setIsOc(false); setIsRnd(false); setIsFound(false); }
+    if (location === "ProjectCards") { setIsExec(false); setIsProj(true); setIsBoot(false); setIsOc(false); setIsRnd(false); setIsFound(false); }
+    if (location === "BootcampCards") { setIsExec(false); setIsProj(false); setIsBoot(true); setIsOc(false); setIsRnd(false); setIsFound(false); }
+    if (location === "OnlineCourseCards") { setIsExec(false); setIsProj(false); setIsBoot(false); setIsOc(true); setIsRnd(false); setIsFound(false); }
+    if (location === "RNDCards") { setIsExec(false); setIsProj(false); setIsBoot(false); setIsOc(false); setIsRnd(true); setIsFound(false); }
+    if (location === "FounderCards") { setIsExec(false); setIsProj(false); setIsBoot(false); setIsOc(false); setIsRnd(false); setIsFound(true); }
   };
 
   return (
@@ -79,8 +81,9 @@ function FilterCards() {
         <FilterContainer>
             <FilterItem style={isExec ? clicked : null} onClick={() => LoadComponent("ExecBoardCards")}>Executive Board</FilterItem>
             <FilterItem style={isProj ? clicked : null} onClick={() => LoadComponent("ProjectCards")}>Projects</FilterItem>
-            <FilterItem style={isEdu ? clicked : null} onClick={() => LoadComponent("EducationCards")}>Education</FilterItem>
-            <FilterItem style={isAdv ? clicked : null} onClick={() => LoadComponent("AdvisorCards")}>Advisors</FilterItem>
+            <FilterItem style={isBoot ? clicked : null} onClick={() => LoadComponent("BootcampCards")}>Bootcamp</FilterItem>
+            <FilterItem style={isOc ? clicked : null} onClick={() => LoadComponent("OnlineCourseCards")}>Online Course</FilterItem>
+            <FilterItem style={isRnd ? clicked : null} onClick={() => LoadComponent("RNDCards")}>Research & Development</FilterItem>
             <FilterItem style={isFound ? clicked : null} onClick={() => LoadComponent("FounderCards")}>Founders</FilterItem>
         </FilterContainer>
         {selectedSomethingElse ? component : <ExecBoardCards/>}

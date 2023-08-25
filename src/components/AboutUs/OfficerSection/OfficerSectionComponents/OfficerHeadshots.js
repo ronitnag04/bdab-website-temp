@@ -7,14 +7,14 @@ import exec6 from "../../../../images/about_us/officer_photos/exec/pruthvi.jpg"
 import exec7 from "../../../../images/about_us/officer_photos/exec/maddie.jpg"
 import exec8 from "../../../../images/about_us/officer_photos/exec/cadence.jpg"
 
-import edu1 from "../../../../images/about_us/officer_photos/education/saaketh.png"
-import edu2 from "../../../../images/about_us/officer_photos/education/aadhiti.jpg"
-import edu3 from "../../../../images/about_us/officer_photos/education/garima_new.jpg"
-import edu4 from "../../../../images/about_us/officer_photos/education/ashwin.png"
-import edu5 from "../../../../images/about_us/officer_photos/education/ronit.jpg"
-import edu6 from "../../../../images/about_us/officer_photos/education/gokce.jpeg"
-import edu7 from "../../../../images/about_us/officer_photos/education/karina.jpg"
+import boot1 from "../../../../images/about_us/officer_photos/education/saaketh.png"
+import boot2 from "../../../../images/about_us/officer_photos/education/aadhiti.jpg"
+import boot3 from "../../../../images/about_us/officer_photos/education/garima_new.jpg"
+import boot4 from "../../../../images/about_us/officer_photos/education/ashwin.png"
 
+import oc1 from "../../../../images/about_us/officer_photos/education/ronit.jpg"
+import oc2 from "../../../../images/about_us/officer_photos/education/gokce.jpeg"
+import oc3 from "../../../../images/about_us/officer_photos/education/karina.jpg"
 
 import proj1 from "../../../../images/about_us/officer_photos/projects/irene.jpg"
 import proj2 from "../../../../images/about_us/officer_photos/projects/tanvi.jpeg"
@@ -47,14 +47,17 @@ export const execArr = [
     exec8
 ];
 
-export const educationArr = [
-    edu1,
-    edu2,
-    edu3,
-    edu4,
-    edu5, 
-    edu6,
-    edu7
+export const bootcampArr = [
+    boot1,
+    boot2,
+    boot3,
+    boot4,
+];
+
+export const onlineCourseArr = [
+    oc1,
+    oc2,
+    oc3,
 ];
 
 export const projectArr = [
@@ -84,7 +87,8 @@ export const founderArr = [
 
 export default {
     execArr,
-    educationArr,
+    bootcampArr,
+    onlineCourseArr,
     projectArr,
     advisorArr,
     founderArr
