@@ -83,7 +83,7 @@ const Details = styled.h1`
 
 const OfficerCard = (props) => {
     return (
-        <Container as={Link} to={props.linkedin} target="_blank" style={{textDecoration: "none"}}>
+        <Container>
             <Photo src={props.photoLink}/>
             <Name>{props.name}</Name>
             <InnerContainer>
@@ -101,9 +101,12 @@ const OfficerCard = (props) => {
                 <a href={props.linkedin} rel="noreferrer" target="_blank">
                     <LinkedIn src={linkedin} alt="logo"/>
                 </a>
-                <a href={props.calendly} rel="noreferrer" target="_blank">
-                    <Calendly src={calendly} alt="logo"/>
-                </a>
+
+                {props.calendly == "" ? <></> :
+                    <a href={props.calendly} rel="noreferrer" target="_blank">
+                        <Calendly src={calendly} alt="logo"/>
+                    </a>
+                }
             </InnerContainer>
         </Container>
     )
