@@ -18,8 +18,11 @@ const ContactUsContent = () => {
                 description={<>Have any questions about recruitment, infosessions, or general membership? 
                 Send us an email at <b>bigdata.berkeley@gmail.com</b> and we will get back to you!</>}
             />
+            
+            {/*
             <iframe title="BDAB Email List" class="form" src="https://docs.google.com/forms/d/e/1FAIpQLScLbviWBJP9bxQuae3_oWxx8knoaBt2XB_NMOPsCqLddpjBMg/viewform?embedded=true" 
             width="80%" height="1710" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style={{margin: "30px"}}>Loading…</iframe>
+                */}
         </Container>
     )
 }
