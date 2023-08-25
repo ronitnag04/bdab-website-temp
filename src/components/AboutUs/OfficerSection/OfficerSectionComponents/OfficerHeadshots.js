@@ -24,7 +24,7 @@ import proj5 from "../../../../images/about_us/officer_photos/projects/yash.png"
 import proj6 from "../../../../images/about_us/officer_photos/projects/matthew.jpg"
 
 import advisor1 from "../../../../images/about_us/officer_photos/advisors/emily.jpg"
-import advisor2 from "../../../../images/about_us/officer_photos/advisors/Vinay.jpg"
+import advisor2 from "../../../../images/about_us/officer_photos/advisors/vinay_kanigicherla.jpg"
 import advisor3 from "../../../../images/about_us/officer_photos/advisors/sofia_kwee.jpg"
 
 
