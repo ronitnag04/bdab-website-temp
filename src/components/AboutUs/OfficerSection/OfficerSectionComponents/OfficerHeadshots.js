@@ -7,14 +7,14 @@ import exec6 from "../../../../images/about_us/officer_photos/exec/pruthvi.jpg"
 import exec7 from "../../../../images/about_us/officer_photos/exec/maddie.jpg"
 import exec8 from "../../../../images/about_us/officer_photos/exec/cadence.jpg"
 
-import boot1 from "../../../../images/about_us/officer_photos/education/saaketh.png"
-import boot2 from "../../../../images/about_us/officer_photos/education/aadhiti.jpg"
-import boot3 from "../../../../images/about_us/officer_photos/education/garima_new.jpg"
-import boot4 from "../../../../images/about_us/officer_photos/education/ashwin.png"
+import boot1 from "../../../../images/about_us/officer_photos/bootcamp/saaketh.png"
+import boot2 from "../../../../images/about_us/officer_photos/bootcamp/aadhiti.jpg"
+import boot3 from "../../../../images/about_us/officer_photos/bootcamp/garima_new.jpg"
+import boot4 from "../../../../images/about_us/officer_photos/bootcamp/ashwin.png"
 
-import oc1 from "../../../../images/about_us/officer_photos/education/ronit.jpg"
-import oc2 from "../../../../images/about_us/officer_photos/education/gokce.jpeg"
-import oc3 from "../../../../images/about_us/officer_photos/education/karina.jpg"
+import oc1 from "../../../../images/about_us/officer_photos/online_course/ronit.jpg"
+import oc2 from "../../../../images/about_us/officer_photos/online_course/gokce.jpeg"
+import oc3 from "../../../../images/about_us/officer_photos/online_course/karina.jpg"
 
 import proj1 from "../../../../images/about_us/officer_photos/projects/irene.jpg"
 import proj2 from "../../../../images/about_us/officer_photos/projects/tanvi.jpeg"
@@ -85,7 +85,7 @@ export const founderArr = [
     founder7
 ];
 
-export default {
+export const allPhotos = {
     execArr,
     bootcampArr,
     onlineCourseArr,
