@@ -16,7 +16,7 @@ const ApplyContent = () => {
     return (
         <Container>
             <BerkeleyStudents/>
-            <HighSchoolStudents/>
+            { /* <HighSchoolStudents/> */}
             <PhotoCarousel/>
             <ApplyFAQ/>
         </Container>
