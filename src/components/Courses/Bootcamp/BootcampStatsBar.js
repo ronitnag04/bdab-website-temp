@@ -20,11 +20,10 @@ const Container = styled.div`
 const BootcampStatsBar = () => {
     return (
         <Container>
-            <StatValue maxValue="350" suffix="+" label="students taught" />
-            <StatValue maxValue="13" suffix="" label="classes taught" />
-            <StatValue maxValue="12" suffix="" label="active instructors" />
-            <StatValue maxValue="140" suffix="+" label="total hours taught" />
-            <StatValue maxValue="8.7" decimals="1" suffix="/10" label="teaching effectiveness" />
+            <StatValue maxValue="600" suffix="+" label="students taught" />
+            <StatValue maxValue="8" suffix="" label="semesters taught" />
+            <StatValue maxValue="16" suffix="" label="active instructors" />
+            <StatValue maxValue="500" suffix="+" label="total hours taught" />
         </Container>
     )
 }

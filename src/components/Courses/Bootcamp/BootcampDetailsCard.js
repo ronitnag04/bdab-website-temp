@@ -88,7 +88,7 @@ const BootcampDetailsCard = () => {
                 </InnerContainer>
                 <InnerContainer>
                     <Details style={{letterSpacing: "0.5px"}}>FREE</Details>
-                    <Details style={{marginBottom: "14px"}}>Every Saturday from 2.27 to 5.1 (8 weeks)</Details>
+                    <Details style={{marginBottom: "14px"}}>Every Saturday (7 weeks)</Details>
                     <Details>10:30-12pm or 12pm-1:30pm or 1:30-3pm (Pacific)</Details>
                     <Details>Must be concurrently enrolled in high school</Details>
                     <Details>60 students (20 per class)</Details>

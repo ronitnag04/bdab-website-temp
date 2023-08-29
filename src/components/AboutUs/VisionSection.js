@@ -44,7 +44,7 @@ const VisionSection = () => (
         <DescriptionContainer>
             <Description className="item-0"
                 description="Big Data at Berkeley (BDAB) is a student organization driven by the power of data to impact our community for the better. 
-                We seek to utilize our diverse experiences in the field of technology to prepare the next generation of data 
+                We seek to utilize our diverse experiences in the field of technology to prepare the next generation of data
                 scientists and thinkers, as well as provide them with the opportunities to learn and grow."
             />
             <Photo className="item-1" src={entire_club}/>

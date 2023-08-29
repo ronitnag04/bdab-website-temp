@@ -17,7 +17,7 @@ const OnlineCourseCards = () => (
             <OfficerCard className="item-4"
                 name="Ronit Nagarapu"
                 photoLink={onlineCourseArr[0]}
-                role="OC Head of Web Development"
+                role="Head of Web Development"
                 interest1="Taekwondo"
                 interest2= "Tennis"
                 interest3="DIY Electronics"
@@ -27,7 +27,7 @@ const OnlineCourseCards = () => (
             <OfficerCard className="item-5"
                 name="Gokce Gozek"
                 photoLink={onlineCourseArr[1]}
-                role="OC Head of Curriculum"
+                role="Head of Curriculum"
                 interest1="Reading"
                 interest2= "Listening to music"
                 interest3="Traveling"
@@ -37,7 +37,7 @@ const OnlineCourseCards = () => (
             <OfficerCard className="item-6"
                 name="Karina Parikh"
                 photoLink={onlineCourseArr[2]}
-                role="OC Head of Marketing"
+                role="Head of Marketing"
                 interest1="Running"
                 interest2="Traveling"
                 interest3="Exploring new cafes / restaurants"

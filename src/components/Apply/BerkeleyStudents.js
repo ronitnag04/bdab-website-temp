@@ -77,9 +77,10 @@ const BerkeleyStudents = () => (
         <SectionTitle title="For UC Berkeley Students"></SectionTitle>
         <DescriptionContainer>
             <Description
-                description={<>For students interested in working on a consulting project or teaching data science in BDAB:
-                    apply to our education committee, projects committee, or both for the Fall 2023 semester. There
-                    is only one application. <b>You must apply to at least one committee.</b> Looking forward to meeting you!</>}
+                description={<>Thank you for applying to Big Data at Berkeley (BDAB)! 
+                We are looking for individuals who want to be a part of one of our three departments: Bootcamp, Online Course or Projects. 
+                Each department has its own interview process which is independent of the other departments. 
+                You may apply to all three departments, but you will only be placed into one department.</>}
             />
         </DescriptionContainer>
         <DetailsContainer>

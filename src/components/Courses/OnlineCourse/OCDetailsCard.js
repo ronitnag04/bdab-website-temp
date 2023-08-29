@@ -80,7 +80,6 @@ const OCDetailsCard = () => {
                     <Label>Mode</Label>
                     <Label>Earn</Label>
                     <Label>App</Label>
-                    <Label>Links</Label>
                     <Label style={{marginBottom: "20px"}}>Course</Label>
                 </InnerContainer>
                 <InnerContainer>
@@ -89,9 +88,6 @@ const OCDetailsCard = () => {
                     <Details>Online</Details>
                     <Details>Certificate of Completion</Details>
                     <Details>None</Details>
-                    <a href="http://bit.ly/online_course_syllabus" rel="noreferrer" target="_blank">
-                        <Details style={{textDecorationColor: "#231f20"}}>Syllabus</Details>
-                    </a>
                     {/* <a href="/contactus" rel="noreferrer" target="_blank">
                         <Details style={{textDecorationColor: "#231f20"}}>Available Fall 2022</Details>
                     </a> */}

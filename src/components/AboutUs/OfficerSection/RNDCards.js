@@ -16,7 +16,7 @@ const RNDCards = () => (
             <OfficerCard className="item-0"
                 name="Emily Holmes"
                 photoLink={advisorArr[0]}
-                role="Senior Advisor"
+                role="R&D Lead"
                 interest1="Trying new coffee shops"
                 interest2="Watching Reality TV"
                 interest3="Baking apple pies"
@@ -26,7 +26,7 @@ const RNDCards = () => (
             <OfficerCard className="item-1"
                 name="Vinay Kanigicherla"
                 photoLink={advisorArr[1]}
-                role="Senior Advisor"
+                role="R&D Lead"
                 interest1="Playing Badminton and Tennis"
                 interest2="Listening to rap"
                 interest3="Watching F1, MMA, and NFL"

@@ -47,7 +47,7 @@ const BootcampCards = () => (
             <OfficerCard className="item-3"
                 name="Ashwin Gopalan"
                 photoLink={bootcampArr[3]}
-                role="Bootcamp Head of Curriculum"
+                role="Head Instructor"
                 interest1="Cooking (and eating...)"
                 interest2= "Playing golf or soccer"
                 interest3="Finding new music"

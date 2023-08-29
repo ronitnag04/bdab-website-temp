@@ -116,8 +116,7 @@ const HomeBanner = () => (
     <Container>
       <Title className="item-0">Big Data at Berkeley</Title>
       <Description className="item-1">
-        We are a student organization that strives to promote data science in our community through educational bootcamps 
-        and industry-level data consulting. Est 2019.
+        Big Data at Berkeley (BDAB), established in 2019, is one of the largest data science student organizations at UC Berkeley. We have a dual purpose to provide data science education to high school students and data science consulting services to clients.
       </Description>
       <ButtonContainer className="item-2">
         <a href="/aboutus">

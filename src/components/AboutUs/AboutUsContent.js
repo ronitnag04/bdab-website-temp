@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import VisionSection from "./VisionSection"
-import CommitteeSection from "./CommitteeSection"
+import DepartmentSection from "./DepartmentSection"
 import ClubValuesSection from "./ClubValuesSection"
 import FilterCards from "./OfficerSection/FilterCards"
 
@@ -8,7 +8,7 @@ const AboutUsContent = () => {
     return (
         <>
             <VisionSection/>
-            <CommitteeSection/>
+            <DepartmentSection/>
             <ClubValuesSection/>
             <FilterCards/>
         </>

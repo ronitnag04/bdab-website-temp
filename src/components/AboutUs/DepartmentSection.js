@@ -15,15 +15,15 @@ const CardContainer = styled.div`
     .item-1 { order: 1; }
 `
 
-const CommitteeSection = () => (
+const DepartmentSection = () => (
     <>
-        <SectionTitle title="Our Committees"></SectionTitle>
+        <SectionTitle title="Our Departments"></SectionTitle>
         <CardContainer>
             <Card className="item-0"
-                title="Project Committee"
+                title="Projects"
                 icon={icon1}
                 link="/workwithus"
-                description={<>The Project Committee is dedicated to providing leaders with advanced analytics and 
+                description={<>The Projects Department is dedicated to providing leaders with advanced analytics and 
                 machine learning models to <b>guide critical decisions and accelerate growth.</b> We use data to find trends 
                 that help businesses make better decisions.</>}
             />
@@ -31,13 +31,13 @@ const CommitteeSection = () => (
                 title="Bootcamp"
                 icon={icon2}
                 link="/courses"
-                description={<>The Bootcamp Committee aims to provide a <b>data science education</b> to high school students through our Big Data Bootcamp hosted in the Fall and Spring.</>}
+                description={<>The Bootcamp Department aims to provide a <b>data science education</b> to high school students through our Big Data Bootcamp hosted in the Fall and Spring.</>}
             />
             <Card className="item-2"
                 title="Online Couse"
                 icon={icon2}
                 link="/courses"
-                description={<>The Online Course Committee’s goal is to make data science education accessible to those 
+                description={<>The Online Course Department's goal is to make data science education accessible to those 
                 of <b>all ages and locations.</b> We've launched a completely new, 
                 original Data Science Demystified online course.</>}
             />
@@ -45,4 +45,4 @@ const CommitteeSection = () => (
     </>
 )
 
-export default CommitteeSection
+export default DepartmentSection
