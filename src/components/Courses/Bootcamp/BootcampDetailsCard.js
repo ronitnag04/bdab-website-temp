@@ -77,11 +77,11 @@ const BootcampDetailsCard = () => {
             <OuterContainer>
                 <InnerContainer>
                     <Label>Price</Label>
-                    <Label style={{marginBottom: "30px"}}>Dates</Label>
+                    <Label style={{marginBottom: "16px"}}>Dates</Label>
                     <Label style={{marginBottom: "22px"}}>Time</Label>
-                    <Label style={{marginBottom: "23px"}}>Grade</Label>
-                    <Label>Size</Label>
-                    <Label>Mode</Label>
+                    <Label style={{marginBottom: "24px"}}>Grade</Label>
+                    <Label style={{marginBottom: "11px"}}>Size</Label>
+                    <Label style={{marginBottom: "10px"}}>Mode</Label>
                     <Label>Earn</Label>
                     <Label>App</Label>
                     <Label>Links</Label>
