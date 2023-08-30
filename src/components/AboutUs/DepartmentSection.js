@@ -34,7 +34,7 @@ const DepartmentSection = () => (
                 description={<>The Bootcamp Department aims to provide a <b>data science education</b> to high school students through our Big Data Bootcamp hosted in the Fall and Spring.</>}
             />
             <Card className="item-2"
-                title="Online Couse"
+                title="Online Course"
                 icon={icon2}
                 link="/courses"
                 description={<>The Online Course Department's goal is to make data science education accessible to those 
