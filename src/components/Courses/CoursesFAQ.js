@@ -85,7 +85,7 @@ const CoursesFAQ = () => {
             <Label>Big Data Bootcamp Benefits</Label>
             <Answer>- Live</Answer>
             <Answer>- Receive immediate help when you have issues or questions</Answer>
-            <Answer>- Structured 2 hrs/week (student won't fall behind)</Answer>
+            <Answer>- Structured 1.5 hrs/week (student won't fall behind)</Answer>
             <Answer>- Interactive activities: Data Science themed-Kahoot & Jeopardy</Answer>
           </AnswerContainer>
           <AnswerContainer>
