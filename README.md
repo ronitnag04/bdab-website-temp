@@ -12,7 +12,7 @@
 
    1. Open the terminal.
    2. Navigate into the directory you want to place the website repo.
-   3. Run `git clone https://github.com/bigdataberkleey/bdab_website.git` to clone the repo.
+   3. Run `git clone https://github.com/bigdataberkeley/bdab_website.git` to clone the repo.
    4. Run `cd bdab_website` to access the cloned repo.
    5. Run `npm install` and `npm i gatsby` to automatically install the dependencies listed in the package.json file.
    6. Open your preferred code editor and open up the 'bdab_website' folder.
