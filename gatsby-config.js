@@ -4,6 +4,7 @@ module.exports = {
     description: `Big Data at Berkeley is a UC Berkeley student organization dedicated to promoting data science in our community through educational bootcamps and industry-level data consulting projects.`,
     keywords: ['Big Data at Berkeley', 'Big Data', 'Data Science', 'UC Berkeley', 'Big Data Bootcamp', 'Berkeley', 'Consulting', 'Education', 'Organization', 'RSO', 'Berkeley Club', 'ASUC'],
     url: "https://www.bd.berkeley.edu",
+    siteUrl: 'https://www.bd.berkeley.edu',
     ogImage: 'src/images/square_dark_logo.jpg',
     favicon: {
       ico: 'src/images/favicon.ico'
@@ -36,5 +37,7 @@ module.exports = {
     "gatsby-transformer-json",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
   ]
 };

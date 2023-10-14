@@ -69,11 +69,11 @@ const Module3Page = () => (
 
 export default Module3Page
 
-export const Head = () => {
+export const Head = () => (
   <>
       <title>Module 3 | Data Science Demystified</title>
       <meta charSet="utf-8" />
       <meta name="description" content="Module 3 of Data Science Demystified online course."/>
       <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC,Data Science Demystified,Online Course"/>
   </>
-}
+)

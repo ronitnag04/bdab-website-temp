@@ -15,11 +15,11 @@ const ContactUsPage = () => (
 
 export default ContactUsPage
 
-export const Head = () => {
+export const Head = () => (
   <>
     <title>Contact Us | Big Data at Berkeley</title>
     <meta charSet="utf-8" />
     <meta name="description" content="Questions? Sign up for our email list and we will get back to you!"/>
     <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC"/>
   </>
-}
+)

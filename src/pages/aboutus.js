@@ -15,12 +15,12 @@ const AboutUsPage = () => (
 
 export default AboutUsPage
 
-export const Head = () => {
+export const Head = () => (
   <>
     <title>About Us | Big Data at Berkeley</title>
       <meta charSet="utf-8" />
       <meta name="description" content="Founded in 2019, Big Data at Berkeley is the premier data consulting and data science education organization on the UC Berkeley campus."/>
       <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC"/>
   </>
-}
+)
 

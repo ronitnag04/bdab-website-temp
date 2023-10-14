@@ -15,11 +15,11 @@ const WorkWithUsPage = () => (
 
 export default WorkWithUsPage
 
-export const Head = () => {
+export const Head = () => (
   <>
     <title>Work With Us | Big Data at Berkeley</title>
     <meta charSet="utf-8" />
     <meta name="description" content="Learn more about Big Data's past clients and how we can help your company make better, data-driven decisions."/>
     <meta name="keywords" content="Big Data,Data Science,UC Berkeley,Berkeley,Consulting,Big Data at Berkeley,Big Data Bootcamp,Education,Organization,RSO,Berkeley Club,ASUC"/>
   </>
-}
+)
